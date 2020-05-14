@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="ward_type" table="x_cdltd_covid19_wards_and_beds" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>ward_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Normal Ward</label>
+            <language>en</language>
+            <name>x_cdltd_covid19_wards_and_beds</name>
+            <sequence>0</sequence>
+            <sys_created_by>jingwen</sys_created_by>
+            <sys_created_on>2020-05-14 19:04:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>98ec659d643cd0107f441ac44f0f1176</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jingwen</sys_updated_by>
+            <sys_updated_on>2020-05-14 19:04:48</sys_updated_on>
+            <value>nw</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>ward_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>ICU</label>
+            <language>en</language>
+            <name>x_cdltd_covid19_wards_and_beds</name>
+            <sequence>1</sequence>
+            <sys_created_by>jingwen</sys_created_by>
+            <sys_created_on>2020-05-14 19:04:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d8ec659d643cd0107f441ac44f0f1177</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jingwen</sys_updated_by>
+            <sys_updated_on>2020-05-14 19:04:48</sys_updated_on>
+            <value>icu</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>ward_type</element>
+            <name>x_cdltd_covid19_wards_and_beds</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>jingwen</sys_created_by>
+            <sys_created_on>2020-05-14 19:04:48</sys_created_on>
+            <sys_id>d0ec659d643cd0107f441ac44f0f1177</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>ward_type</sys_name>
+            <sys_package display_value="covid19" source="x_cdltd_covid19">8a2abf856438d0107f441ac44f0f115b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="covid19">8a2abf856438d0107f441ac44f0f115b</sys_scope>
+            <sys_update_name>sys_choice_x_cdltd_covid19_wards_and_beds_ward_type</sys_update_name>
+            <sys_updated_by>jingwen</sys_updated_by>
+            <sys_updated_on>2020-05-14 19:04:48</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

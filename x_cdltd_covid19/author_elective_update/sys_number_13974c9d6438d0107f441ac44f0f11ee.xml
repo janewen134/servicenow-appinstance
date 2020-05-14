@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="DELETE">
+        <category display_value="" name="x_cdltd_covid19_waiting_list">x_cdltd_covid19_waiting_list</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>WAIT</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-14 11:42:22</sys_created_on>
+        <sys_id>13974c9d6438d0107f441ac44f0f11ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>WAIT</sys_name>
+        <sys_package display_value="covid19" source="x_cdltd_covid19">8a2abf856438d0107f441ac44f0f115b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="covid19">8a2abf856438d0107f441ac44f0f115b</sys_scope>
+        <sys_update_name>sys_number_13974c9d6438d0107f441ac44f0f11ee</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-14 11:42:22</sys_updated_on>
+    </sys_number>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="covid19">8a2abf856438d0107f441ac44f0f115b</application>
+        <file_path/>
+        <instance_id>80c5b013dba058d080d9a18c1396192c</instance_id>
+        <instance_name>adf-may10niw-dev-006</instance_name>
+        <name>sys_number_13974c9d6438d0107f441ac44f0f11ee</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number"><sys_number action="INSERT_OR_UPDATE"><category display_value="" name="x_cdltd_covid19_waiting_list">x_cdltd_covid19_waiting_list</category><maximum_digits>7</maximum_digits><number>1000</number><prefix>WAIT</prefix><sys_class_name>sys_number</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-05-14 11:42:22</sys_created_on><sys_id>13974c9d6438d0107f441ac44f0f11ee</sys_id><sys_mod_count>0</sys_mod_count><sys_name>WAIT</sys_name><sys_package display_value="covid19" source="x_cdltd_covid19">8a2abf856438d0107f441ac44f0f115b</sys_package><sys_policy/><sys_scope display_value="covid19">8a2abf856438d0107f441ac44f0f115b</sys_scope><sys_update_name>sys_number_13974c9d6438d0107f441ac44f0f11ee</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-05-14 11:42:22</sys_updated_on></sys_number></record_update>]]></payload>
+        <payload_hash>-664898537</payload_hash>
+        <record_name>WAIT</record_name>
+        <reverted_from/>
+        <source>717b37c56438d0107f441ac44f0f1183</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-14 11:42:22</sys_created_on>
+        <sys_id>e3974c9d6438d0107f441ac44f0f11f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17212fe1ce80000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-14 11:42:22</sys_updated_on>
+        <type>Number</type>
+        <update_guid>2f974c9d1238d0101377a62dde9beef2</update_guid>
+        <update_guid_history>2f974c9d1238d0101377a62dde9beef2:-664898537</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-14 12:55:12</sys_created_on>
+        <sys_db_object display_value="" name="sys_number">sys_number</sys_db_object>
+        <sys_id>2c92eb42eab64e6a8bfca6324bd586c4</sys_id>
+        <sys_metadata>13974c9d6438d0107f441ac44f0f11ee</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>WAIT</sys_name>
+        <sys_package display_value="covid19" source="x_cdltd_covid19">8a2abf856438d0107f441ac44f0f115b</sys_package>
+        <sys_parent display_value="">d4c6409d6438d0107f441ac44f0f11de</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="covid19">8a2abf856438d0107f441ac44f0f115b</sys_scope>
+        <sys_scope_delete display_value="">1958d13663e94a94b6c2d2a44bb4dec9</sys_scope_delete>
+        <sys_update_name>sys_number_13974c9d6438d0107f441ac44f0f11ee</sys_update_name>
+        <sys_update_version display_value="sys_number_13974c9d6438d0107f441ac44f0f11ee">e3974c9d6438d0107f441ac44f0f11f3</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-14 12:55:12</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

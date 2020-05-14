@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_cdltd_covid19_healed_patients">x_cdltd_covid19_healed_patients</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>HP</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>jingwen</sys_created_by>
+        <sys_created_on>2020-05-14 11:39:59</sys_created_on>
+        <sys_id>1c17c49d6438d0107f441ac44f0f11c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>HP</sys_name>
+        <sys_package display_value="covid19" source="x_cdltd_covid19">8a2abf856438d0107f441ac44f0f115b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="covid19">8a2abf856438d0107f441ac44f0f115b</sys_scope>
+        <sys_update_name>sys_number_1c17c49d6438d0107f441ac44f0f11c4</sys_update_name>
+        <sys_updated_by>jingwen</sys_updated_by>
+        <sys_updated_on>2020-05-14 11:39:59</sys_updated_on>
+    </sys_number>
+</record_update>

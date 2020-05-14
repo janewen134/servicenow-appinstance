@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="DELETE" field="health_conditions_choice" table="x_cdltd_covid19_waiting_list" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>health_conditions_choice</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>no</label>
+            <language>en</language>
+            <name>x_cdltd_covid19_waiting_list</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-05-14 12:04:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f0cc44916478d0107f441ac44f0f1195</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-05-14 12:04:51</sys_updated_on>
+            <value>health_con_no</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>health_conditions_choice</element>
+            <name>x_cdltd_covid19_waiting_list</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-05-14 12:04:51</sys_created_on>
+            <sys_id>bccc44916478d0107f441ac44f0f1193</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>health_conditions_choice</sys_name>
+            <sys_package display_value="covid19" source="x_cdltd_covid19">8a2abf856438d0107f441ac44f0f115b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="covid19">8a2abf856438d0107f441ac44f0f115b</sys_scope>
+            <sys_update_name>sys_choice_x_cdltd_covid19_waiting_list_health_conditions_choice</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-05-14 12:04:51</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="covid19">8a2abf856438d0107f441ac44f0f115b</application>
+        <file_path/>
+        <instance_id>80c5b013dba058d080d9a18c1396192c</instance_id>
+        <instance_name>adf-may10niw-dev-006</instance_name>
+        <name>sys_choice_x_cdltd_covid19_waiting_list_health_conditions_choice</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_choice action="INSERT_OR_UPDATE" field="health_conditions_choice" table="x_cdltd_covid19_waiting_list" version="3"><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>health_conditions_choice</element><hint/><inactive>false</inactive><label>no</label><language>en</language><name>x_cdltd_covid19_waiting_list</name><sequence>1</sequence><sys_created_by>admin</sys_created_by><sys_created_on>2020-05-14 12:04:51</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>f0cc44916478d0107f441ac44f0f1195</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-05-14 12:04:51</sys_updated_on><value>health_con_no</value></sys_choice><sys_choice_set action="INSERT_OR_UPDATE"><element>health_conditions_choice</element><name>x_cdltd_covid19_waiting_list</name><sys_class_name>sys_choice_set</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-05-14 12:04:51</sys_created_on><sys_id>bccc44916478d0107f441ac44f0f1193</sys_id><sys_mod_count>0</sys_mod_count><sys_name>health_conditions_choice</sys_name><sys_package display_value="covid19" source="x_cdltd_covid19">8a2abf856438d0107f441ac44f0f115b</sys_package><sys_policy/><sys_scope display_value="covid19">8a2abf856438d0107f441ac44f0f115b</sys_scope><sys_update_name>sys_choice_x_cdltd_covid19_waiting_list_health_conditions_choice</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-05-14 12:04:51</sys_updated_on></sys_choice_set></sys_choice></record_update>]]></payload>
+        <payload_hash>-374443506</payload_hash>
+        <record_name>x_cdltd_covid19_waiting_list.health_conditions_choice</record_name>
+        <reverted_from/>
+        <source>717b37c56438d0107f441ac44f0f1183</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-14 12:55:12</sys_created_on>
+        <sys_id>924850596478d0107f441ac44f0f1195</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1721340c95a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-14 12:55:12</sys_updated_on>
+        <type>Choice list</type>
+        <update_guid>1e4850594578d010d6077d6f0a32ab94</update_guid>
+        <update_guid_history>1e4850594578d010d6077d6f0a32ab94:-374443506,b8cc44910178d010066181cecbe22897:-1352296402</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-14 12:55:12</sys_created_on>
+        <sys_db_object display_value="" name="sys_choice_set">sys_choice_set</sys_db_object>
+        <sys_id>bccc44916478d0107f441ac44f0f1193</sys_id>
+        <sys_metadata>bccc44916478d0107f441ac44f0f1193</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>health_conditions_choice</sys_name>
+        <sys_package display_value="covid19" source="x_cdltd_covid19">8a2abf856438d0107f441ac44f0f115b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="covid19">8a2abf856438d0107f441ac44f0f115b</sys_scope>
+        <sys_scope_delete display_value="">1958d13663e94a94b6c2d2a44bb4dec9</sys_scope_delete>
+        <sys_update_name>sys_choice_x_cdltd_covid19_waiting_list_health_conditions_choice</sys_update_name>
+        <sys_update_version display_value="sys_choice_x_cdltd_covid19_waiting_list_health_conditions_choice">924850596478d0107f441ac44f0f1195</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-14 12:55:12</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

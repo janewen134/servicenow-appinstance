@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ua_table_licensing_config">
+    <ua_table_licensing_config action="DELETE">
+        <is_fulfillment>false</is_fulfillment>
+        <license_condition/>
+        <license_model>none</license_model>
+        <license_roles/>
+        <name>x_cdltd_covid19_waiting_list</name>
+        <op_delete>true</op_delete>
+        <op_insert>true</op_insert>
+        <op_update>true</op_update>
+        <owner_condition/>
+        <sys_class_name>ua_table_licensing_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-14 11:27:24</sys_created_on>
+        <sys_id>8434481d6438d0107f441ac44f0f11c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_cdltd_covid19_waiting_list</sys_name>
+        <sys_package display_value="covid19" source="x_cdltd_covid19">8a2abf856438d0107f441ac44f0f115b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="covid19">8a2abf856438d0107f441ac44f0f115b</sys_scope>
+        <sys_update_name>ua_table_licensing_config_8434481d6438d0107f441ac44f0f11c0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-14 11:27:24</sys_updated_on>
+    </ua_table_licensing_config>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="covid19">8a2abf856438d0107f441ac44f0f115b</application>
+        <file_path/>
+        <instance_id>80c5b013dba058d080d9a18c1396192c</instance_id>
+        <instance_name>adf-may10niw-dev-006</instance_name>
+        <name>ua_table_licensing_config_8434481d6438d0107f441ac44f0f11c0</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="ua_table_licensing_config"><ua_table_licensing_config action="DELETE"><is_fulfillment>false</is_fulfillment><license_condition/><license_model>none</license_model><license_roles/><name>x_cdltd_covid19_waiting_list</name><op_delete>true</op_delete><op_insert>true</op_insert><op_update>true</op_update><owner_condition/><sys_class_name>ua_table_licensing_config</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-05-14 11:27:24</sys_created_on><sys_id>8434481d6438d0107f441ac44f0f11c0</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_cdltd_covid19_waiting_list</sys_name><sys_package display_value="covid19" source="x_cdltd_covid19">8a2abf856438d0107f441ac44f0f115b</sys_package><sys_policy/><sys_scope display_value="covid19">8a2abf856438d0107f441ac44f0f115b</sys_scope><sys_update_name>ua_table_licensing_config_8434481d6438d0107f441ac44f0f11c0</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-05-14 11:27:24</sys_updated_on></ua_table_licensing_config></record_update>]]></payload>
+        <payload_hash>-517453443</payload_hash>
+        <record_name>x_cdltd_covid19_waiting_list</record_name>
+        <reverted_from/>
+        <source>717b37c56438d0107f441ac44f0f1183</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-14 11:38:23</sys_created_on>
+        <sys_id>7cb6809d6438d0107f441ac44f0f11db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17212fa73f80000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-14 11:38:23</sys_updated_on>
+        <type>Table Subscription Configuration</type>
+        <update_guid>f4b6809d6c38d01073acdf174d88a4db</update_guid>
+        <update_guid_history>f4b6809d6c38d01073acdf174d88a4db:-517453443,8c34481d4138d010a5807cd1129c84c1:1310665457</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-14 12:55:12</sys_created_on>
+        <sys_db_object display_value="" name="ua_table_licensing_config">ua_table_licensing_config</sys_db_object>
+        <sys_id>42ad272b88d943a991767caaf82ae851</sys_id>
+        <sys_metadata>8434481d6438d0107f441ac44f0f11c0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_cdltd_covid19_waiting_list</sys_name>
+        <sys_package display_value="covid19" source="x_cdltd_covid19">8a2abf856438d0107f441ac44f0f115b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="covid19">8a2abf856438d0107f441ac44f0f115b</sys_scope>
+        <sys_scope_delete display_value="">1958d13663e94a94b6c2d2a44bb4dec9</sys_scope_delete>
+        <sys_update_name>ua_table_licensing_config_8434481d6438d0107f441ac44f0f11c0</sys_update_name>
+        <sys_update_version display_value="ua_table_licensing_config_8434481d6438d0107f441ac44f0f11c0">7cb6809d6438d0107f441ac44f0f11db</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-14 12:55:12</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

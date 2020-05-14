@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Patient Details" max_length="40" name="x_cdltd_covid19_patient_details" type="collection">
+        <element label="Address" mandatory="true" max_length="200" name="address" type="string"/>
+        <element display="true" label="age" mandatory="true" max_length="2" name="age" type="integer"/>
+        <element label="Email" mandatory="true" max_length="40" name="email" type="string"/>
+        <element label="Email" max_length="40" name="em_email" type="string"/>
+        <element label="Name" max_length="40" name="em_name" type="string"/>
+        <element label="emergency phone number" max_length="40" name="em_phone" type="integer"/>
+        <element label="Name" mandatory="true" max_length="20" name="name" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Phone Number" max_length="40" name="phone_number" type="string"/>
+        <element choice="1" label="Relation to Patient" max_length="40" name="relation_to_patient" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="-- New choice --" value="-- New choice --"/>
+            </choice>
+        </element>
+        <element choice="1" label="Severity of case" max_length="200" name="severity_of_case" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="severely infected" sequence="0" value="severely infected"/>
+                <element inactive_on_update="false" label="moderately infected" sequence="1" value="moderately infected"/>
+                <element inactive_on_update="false" label="slightly infected" sequence="2" value="slightly infected"/>
+            </choice>
+        </element>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="Underlying health conditions" max_length="200" name="underlying_health_conditions" type="string"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

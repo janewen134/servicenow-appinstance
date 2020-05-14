@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>bed_2_occupied</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>autofill2</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+//    if (isLoading || newValue === '') {
+//       return;
+//    }
+	var a = g_form.getValue('bed_1_occupied');
+	var b = g_form.getValue('bed_2_occupied');	
+// 	g_form.addInfoMessage("bed 1 is occupied" + a + "Bed 2 is " + b);
+   //Type appropriate comment here, and begin script below
+	if(a&&b) {
+		g_form.setValue('availability', "no");
+// 		g_form.setValue('availability', 'false', 'false');
+	} else {
+		g_form.setValue('availability', "yes");
+	}
+}
+   //Type appropriate comment here, and begin script below
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>jingwen</sys_created_by>
+        <sys_created_on>2020-05-14 16:22:16</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>cbc6c15564f8d0107f441ac44f0f115d</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>autofill2</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="covid19" source="x_cdltd_covid19">8a2abf856438d0107f441ac44f0f115b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="covid19">8a2abf856438d0107f441ac44f0f115b</sys_scope>
+        <sys_update_name>sys_script_client_cbc6c15564f8d0107f441ac44f0f115d</sys_update_name>
+        <sys_updated_by>jingwen</sys_updated_by>
+        <sys_updated_on>2020-05-14 17:46:32</sys_updated_on>
+        <table>x_cdltd_covid19_wards_and_beds</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="covid19">8a2abf856438d0107f441ac44f0f115b</application>
+        <file_path/>
+        <instance_id>80c5b013dba058d080d9a18c1396192c</instance_id>
+        <instance_name>adf-may10niw-dev-006</instance_name>
+        <name>sys_script_client_cbc6c15564f8d0107f441ac44f0f115d</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;bed_2_occupied&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;autofill2&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+//    if (isLoading || newValue === '') {
+//       return;
+//    }
+	var a = g_form.getValue('bed_1_occupied');
+	var b = g_form.getValue('bed_2_occupied');	
+// 	g_form.addInfoMessage("bed 1 is occupied" + a + "Bed 2 is " + b);
+   //Type appropriate comment here, and begin script below
+	if(a&amp;&amp;b) {
+		g_form.setValue('availability', "no");
+// 		g_form.setValue('availability', 'false', 'false');
+	} else {
+		g_form.setValue('availability', "yes");
+	}
+}
+   //Type appropriate comment here, and begin script below
+   
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;jingwen&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-05-14 16:22:16&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;cbc6c15564f8d0107f441ac44f0f115d&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name&gt;autofill2&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="covid19" source="x_cdltd_covid19"&gt;8a2abf856438d0107f441ac44f0f115b&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="covid19"&gt;8a2abf856438d0107f441ac44f0f115b&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_cbc6c15564f8d0107f441ac44f0f115d&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;jingwen&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-05-14 17:46:32&lt;/sys_updated_on&gt;&lt;table&gt;x_cdltd_covid19_wards_and_beds&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-16429791</payload_hash>
+        <record_name>autofill2</record_name>
+        <reverted_from/>
+        <source>b25d33496438d0107f441ac44f0f1112</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>jingwen</sys_created_by>
+        <sys_created_on>2020-05-14 17:46:32</sys_created_on>
+        <sys_id>39fa5591643cd0107f441ac44f0f110c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>172144b81190000001</sys_recorded_at>
+        <sys_updated_by>jingwen</sys_updated_by>
+        <sys_updated_on>2020-05-14 17:46:32</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>b1fa5591973cd010a104db5c913ae80c</update_guid>
+        <update_guid_history>b1fa5591973cd010a104db5c913ae80c:-16429791,a88ad951d43cd01009f6a7e081b32805:-1536424232,95d94d9578f8d010fe9f2600e8ac2372:-32897790,b719c19539f8d010c7b3e7a9dbd941db:-1565870558,a509c195d7f8d0103c99711dc723a7aa:-487431492,5fa789554ef8d010deff9439902bc634:551621872</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>jingwen</sys_created_by>
+        <sys_created_on>2020-05-14 18:17:02</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>0fbd28e549884e088c4ff0f9dfe03bc1</sys_id>
+        <sys_metadata>cbc6c15564f8d0107f441ac44f0f115d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>autofill2</sys_name>
+        <sys_package display_value="covid19" source="x_cdltd_covid19">8a2abf856438d0107f441ac44f0f115b</sys_package>
+        <sys_parent display_value="Wards and Beds">e7f908116478d0107f441ac44f0f11fe</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="covid19">8a2abf856438d0107f441ac44f0f115b</sys_scope>
+        <sys_scope_delete display_value="">1958d13663e94a94b6c2d2a44bb4dec9</sys_scope_delete>
+        <sys_update_name>sys_script_client_cbc6c15564f8d0107f441ac44f0f115d</sys_update_name>
+        <sys_update_version display_value="sys_script_client_cbc6c15564f8d0107f441ac44f0f115d">39fa5591643cd0107f441ac44f0f110c</sys_update_version>
+        <sys_updated_by>jingwen</sys_updated_by>
+        <sys_updated_on>2020-05-14 18:17:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

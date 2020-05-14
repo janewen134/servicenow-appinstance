@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>e_c_name</field>
+        <mandatory>false</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>jingwen</sys_created_by>
+        <sys_created_on>2020-05-14 17:28:27</sys_created_on>
+        <sys_id>c7c6999d64f8d0107f441ac44f0f1175</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>e_c_name</sys_name>
+        <sys_package display_value="covid19" source="x_cdltd_covid19">8a2abf856438d0107f441ac44f0f115b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="covid19">8a2abf856438d0107f441ac44f0f115b</sys_scope>
+        <sys_update_name>sys_ui_policy_action_c7c6999d64f8d0107f441ac44f0f1175</sys_update_name>
+        <sys_updated_by>jingwen</sys_updated_by>
+        <sys_updated_on>2020-05-14 17:28:27</sys_updated_on>
+        <table>x_cdltd_covid19_inpatients</table>
+        <ui_policy display_value="slightly ill patients">9e66559d64f8d0107f441ac44f0f11db</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="covid19">8a2abf856438d0107f441ac44f0f115b</application>
+        <file_path/>
+        <instance_id>80c5b013dba058d080d9a18c1396192c</instance_id>
+        <instance_name>adf-may10niw-dev-006</instance_name>
+        <name>sys_ui_policy_action_c7c6999d64f8d0107f441ac44f0f1175</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>ignore</disabled><field>e_c_name</field><mandatory>false</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>jingwen</sys_created_by><sys_created_on>2020-05-14 17:28:27</sys_created_on><sys_id>c7c6999d64f8d0107f441ac44f0f1175</sys_id><sys_mod_count>0</sys_mod_count><sys_name>e_c_name</sys_name><sys_package display_value="covid19" source="x_cdltd_covid19">8a2abf856438d0107f441ac44f0f115b</sys_package><sys_policy/><sys_scope display_value="covid19">8a2abf856438d0107f441ac44f0f115b</sys_scope><sys_update_name>sys_ui_policy_action_c7c6999d64f8d0107f441ac44f0f1175</sys_update_name><sys_updated_by>jingwen</sys_updated_by><sys_updated_on>2020-05-14 17:28:27</sys_updated_on><table>x_cdltd_covid19_inpatients</table><ui_policy display_value="slightly ill patients">9e66559d64f8d0107f441ac44f0f11db</ui_policy><visible>ignore</visible></sys_ui_policy_action></record_update>]]></payload>
+        <payload_hash>598264661</payload_hash>
+        <record_name>e_c_name</record_name>
+        <reverted_from/>
+        <source>b25d33496438d0107f441ac44f0f1112</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>jingwen</sys_created_by>
+        <sys_created_on>2020-05-14 17:28:27</sys_created_on>
+        <sys_id>74d6999d64f8d0107f441ac44f0f11a6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>172143af2f20000001</sys_recorded_at>
+        <sys_updated_by>jingwen</sys_updated_by>
+        <sys_updated_on>2020-05-14 17:28:27</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>bcd6999d4cf8d010228a991271d4f7a5</update_guid>
+        <update_guid_history>bcd6999d4cf8d010228a991271d4f7a5:598264661</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>jingwen</sys_created_by>
+        <sys_created_on>2020-05-14 17:31:24</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>262f481ead4e49f49e4c66a4196d25b1</sys_id>
+        <sys_metadata>c7c6999d64f8d0107f441ac44f0f1175</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>e_c_name</sys_name>
+        <sys_package display_value="covid19" source="x_cdltd_covid19">8a2abf856438d0107f441ac44f0f115b</sys_package>
+        <sys_parent display_value="slightly ill patients">9e66559d64f8d0107f441ac44f0f11db</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="covid19">8a2abf856438d0107f441ac44f0f115b</sys_scope>
+        <sys_scope_delete display_value="">1958d13663e94a94b6c2d2a44bb4dec9</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_c7c6999d64f8d0107f441ac44f0f1175</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_c7c6999d64f8d0107f441ac44f0f1175">74d6999d64f8d0107f441ac44f0f11a6</sys_update_version>
+        <sys_updated_by>jingwen</sys_updated_by>
+        <sys_updated_on>2020-05-14 17:31:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

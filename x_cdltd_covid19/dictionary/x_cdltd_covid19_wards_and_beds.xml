@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Wards and Beds" max_length="40" name="x_cdltd_covid19_wards_and_beds" type="collection">
+        <element label="Availability" max_length="5" name="availability" type="string"/>
+        <element choice="1" display="true" label="Bed Occupancy" max_length="40" name="bed_occupancy" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="One Bed Occupied" sequence="0" value="one"/>
+                <element inactive_on_update="false" label="Two Beds Occupied" sequence="1" value="two"/>
+            </choice>
+        </element>
+        <element label="Ward Number" mandatory="true" max_length="10" name="ward_number" type="string"/>
+        <element choice="1" label="Ward Type" max_length="40" name="ward_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Normal Ward" sequence="0" value="nw"/>
+                <element inactive_on_update="false" label="ICU" sequence="1" value="icu"/>
+            </choice>
+        </element>
+    </element>
+</database>

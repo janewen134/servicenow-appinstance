@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description>Default access control on x_cdltd_covid19_waiting_list</description>
+        <name>x_cdltd_covid19_waiting_list</name>
+        <operation display_value="write">write</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-14 11:42:22</sys_created_on>
+        <sys_id>db974c9d6438d0107f441ac44f0f11db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_cdltd_covid19_waiting_list</sys_name>
+        <sys_package display_value="covid19" source="x_cdltd_covid19">8a2abf856438d0107f441ac44f0f115b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="covid19">8a2abf856438d0107f441ac44f0f115b</sys_scope>
+        <sys_update_name>sys_security_acl_db974c9d6438d0107f441ac44f0f11db</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-14 11:42:22</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="covid19">8a2abf856438d0107f441ac44f0f115b</application>
+        <file_path/>
+        <instance_id>80c5b013dba058d080d9a18c1396192c</instance_id>
+        <instance_name>adf-may10niw-dev-006</instance_name>
+        <name>sys_security_acl_db974c9d6438d0107f441ac44f0f11db</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on x_cdltd_covid19_waiting_list</description><name>x_cdltd_covid19_waiting_list</name><operation display_value="write">write</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-05-14 11:42:22</sys_created_on><sys_id>db974c9d6438d0107f441ac44f0f11db</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_cdltd_covid19_waiting_list</sys_name><sys_package display_value="covid19" source="x_cdltd_covid19">8a2abf856438d0107f441ac44f0f115b</sys_package><sys_policy/><sys_scope display_value="covid19">8a2abf856438d0107f441ac44f0f115b</sys_scope><sys_update_name>sys_security_acl_db974c9d6438d0107f441ac44f0f11db</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-05-14 11:42:22</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>1674350564</payload_hash>
+        <record_name>x_cdltd_covid19_waiting_list</record_name>
+        <reverted_from/>
+        <source>717b37c56438d0107f441ac44f0f1183</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-14 11:42:22</sys_created_on>
+        <sys_id>93974c9d6438d0107f441ac44f0f11de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17212fe1bb70000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-14 11:42:22</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>db974c9d0438d010aef19eab682fc1dd</update_guid>
+        <update_guid_history>db974c9d0438d010aef19eab682fc1dd:1674350564</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-14 12:55:10</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>2bdb05877e6841d28dcee18a038078c4</sys_id>
+        <sys_metadata>db974c9d6438d0107f441ac44f0f11db</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_cdltd_covid19_waiting_list</sys_name>
+        <sys_package display_value="covid19" source="x_cdltd_covid19">8a2abf856438d0107f441ac44f0f115b</sys_package>
+        <sys_parent display_value="">53974c9d6438d0107f441ac44f0f11e7</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="covid19">8a2abf856438d0107f441ac44f0f115b</sys_scope>
+        <sys_scope_delete display_value="">1958d13663e94a94b6c2d2a44bb4dec9</sys_scope_delete>
+        <sys_update_name>sys_security_acl_db974c9d6438d0107f441ac44f0f11db</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_db974c9d6438d0107f441ac44f0f11db">93974c9d6438d0107f441ac44f0f11de</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-14 12:55:10</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

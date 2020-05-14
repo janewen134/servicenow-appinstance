@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="DELETE" field="relation" table="x_cdltd_covid19_waiting_list" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>relation</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Distant Relative</label>
+            <language>en</language>
+            <name>x_cdltd_covid19_waiting_list</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-05-14 12:04:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>74cc44916478d0107f441ac44f0f11bd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-05-14 12:04:51</sys_updated_on>
+            <value>distant_relative</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>relation</element>
+            <name>x_cdltd_covid19_waiting_list</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-05-14 12:04:51</sys_created_on>
+            <sys_id>b8cc44916478d0107f441ac44f0f11b8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>relation</sys_name>
+            <sys_package display_value="covid19" source="x_cdltd_covid19">8a2abf856438d0107f441ac44f0f115b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="covid19">8a2abf856438d0107f441ac44f0f115b</sys_scope>
+            <sys_update_name>sys_choice_x_cdltd_covid19_waiting_list_relation</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-05-14 12:04:51</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="covid19">8a2abf856438d0107f441ac44f0f115b</application>
+        <file_path/>
+        <instance_id>80c5b013dba058d080d9a18c1396192c</instance_id>
+        <instance_name>adf-may10niw-dev-006</instance_name>
+        <name>sys_choice_x_cdltd_covid19_waiting_list_relation</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_choice action="INSERT_OR_UPDATE" field="relation" table="x_cdltd_covid19_waiting_list" version="3"><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>relation</element><hint/><inactive>false</inactive><label>Distant Relative</label><language>en</language><name>x_cdltd_covid19_waiting_list</name><sequence>3</sequence><sys_created_by>admin</sys_created_by><sys_created_on>2020-05-14 12:04:51</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>74cc44916478d0107f441ac44f0f11bd</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-05-14 12:04:51</sys_updated_on><value>distant_relative</value></sys_choice><sys_choice_set action="INSERT_OR_UPDATE"><element>relation</element><name>x_cdltd_covid19_waiting_list</name><sys_class_name>sys_choice_set</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-05-14 12:04:51</sys_created_on><sys_id>b8cc44916478d0107f441ac44f0f11b8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>relation</sys_name><sys_package display_value="covid19" source="x_cdltd_covid19">8a2abf856438d0107f441ac44f0f115b</sys_package><sys_policy/><sys_scope display_value="covid19">8a2abf856438d0107f441ac44f0f115b</sys_scope><sys_update_name>sys_choice_x_cdltd_covid19_waiting_list_relation</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-05-14 12:04:51</sys_updated_on></sys_choice_set></sys_choice></record_update>]]></payload>
+        <payload_hash>-839287829</payload_hash>
+        <record_name>x_cdltd_covid19_waiting_list.relation</record_name>
+        <reverted_from/>
+        <source>717b37c56438d0107f441ac44f0f1183</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-14 12:55:12</sys_created_on>
+        <sys_id>9e4850596478d0107f441ac44f0f11a2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1721340ca300000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-14 12:55:12</sys_updated_on>
+        <type>Choice list</type>
+        <update_guid>1a4850595978d0109439f55ad33695a2</update_guid>
+        <update_guid_history>1a4850595978d0109439f55ad33695a2:-839287829,16485059c378d010565a05b6caebe19f:937545262,124850596a78d010bca6386f7510e49c:1620763434,3ccc4491c578d0105d74469ab8ddefbf:-1397618983</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-14 12:55:12</sys_created_on>
+        <sys_db_object display_value="" name="sys_choice_set">sys_choice_set</sys_db_object>
+        <sys_id>b8cc44916478d0107f441ac44f0f11b8</sys_id>
+        <sys_metadata>b8cc44916478d0107f441ac44f0f11b8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>relation</sys_name>
+        <sys_package display_value="covid19" source="x_cdltd_covid19">8a2abf856438d0107f441ac44f0f115b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="covid19">8a2abf856438d0107f441ac44f0f115b</sys_scope>
+        <sys_scope_delete display_value="">1958d13663e94a94b6c2d2a44bb4dec9</sys_scope_delete>
+        <sys_update_name>sys_choice_x_cdltd_covid19_waiting_list_relation</sys_update_name>
+        <sys_update_version display_value="sys_choice_x_cdltd_covid19_waiting_list_relation">9e4850596478d0107f441ac44f0f11a2</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-14 12:55:12</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

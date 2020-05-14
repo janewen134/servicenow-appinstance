@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="Emergency Contact" section_id="94cc04916478d0107f441ac44f0f11bf" sys_domain="global" table="x_cdltd_covid19_waiting_list" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>em_name</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-05-14 12:15:16</sys_created_on>
+            <sys_id>952f4cd16478d0107f441ac44f0f1160</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Emergency Contact" display_value="Emergency Contact" name="x_cdltd_covid19_waiting_list" sys_domain="global" view="Default view">94cc04916478d0107f441ac44f0f11bf</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-05-14 12:15:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>em_contact</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-05-14 12:15:16</sys_created_on>
+            <sys_id>192f4cd16478d0107f441ac44f0f1160</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Emergency Contact" display_value="Emergency Contact" name="x_cdltd_covid19_waiting_list" sys_domain="global" view="Default view">94cc04916478d0107f441ac44f0f11bf</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-05-14 12:15:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>relation</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-05-14 12:15:16</sys_created_on>
+            <sys_id>992f4cd16478d0107f441ac44f0f1160</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Emergency Contact" display_value="Emergency Contact" name="x_cdltd_covid19_waiting_list" sys_domain="global" view="Default view">94cc04916478d0107f441ac44f0f11bf</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-05-14 12:15:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>work_notes</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-05-14 12:15:16</sys_created_on>
+            <sys_id>1d2f4cd16478d0107f441ac44f0f1160</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Emergency Contact" display_value="Emergency Contact" name="x_cdltd_covid19_waiting_list" sys_domain="global" view="Default view">94cc04916478d0107f441ac44f0f11bf</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-05-14 12:15:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>Emergency Contact</caption>
+            <header>false</header>
+            <name>x_cdltd_covid19_waiting_list</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-05-14 12:04:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>94cc04916478d0107f441ac44f0f11bf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Emergency Contact</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="covid19" source="x_cdltd_covid19">8a2abf856438d0107f441ac44f0f115b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="covid19">8a2abf856438d0107f441ac44f0f115b</sys_scope>
+            <sys_update_name>sys_ui_section_94cc04916478d0107f441ac44f0f11bf</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-05-14 12:04:49</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="covid19">8a2abf856438d0107f441ac44f0f115b</application>
+        <file_path/>
+        <instance_id>80c5b013dba058d080d9a18c1396192c</instance_id>
+        <instance_name>adf-may10niw-dev-006</instance_name>
+        <name>sys_ui_section_94cc04916478d0107f441ac44f0f11bf</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="Emergency Contact" section_id="94cc04916478d0107f441ac44f0f11bf" sys_domain="global" table="x_cdltd_covid19_waiting_list" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>em_name</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-05-14 12:15:16</sys_created_on><sys_id>952f4cd16478d0107f441ac44f0f1160</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Emergency Contact" display_value="Emergency Contact" name="x_cdltd_covid19_waiting_list" sys_domain="global" view="Default view">94cc04916478d0107f441ac44f0f11bf</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-05-14 12:15:16</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>em_contact</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-05-14 12:15:16</sys_created_on><sys_id>192f4cd16478d0107f441ac44f0f1160</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Emergency Contact" display_value="Emergency Contact" name="x_cdltd_covid19_waiting_list" sys_domain="global" view="Default view">94cc04916478d0107f441ac44f0f11bf</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-05-14 12:15:16</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>relation</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-05-14 12:15:16</sys_created_on><sys_id>992f4cd16478d0107f441ac44f0f1160</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Emergency Contact" display_value="Emergency Contact" name="x_cdltd_covid19_waiting_list" sys_domain="global" view="Default view">94cc04916478d0107f441ac44f0f11bf</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-05-14 12:15:16</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>work_notes</element><position>3</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-05-14 12:15:16</sys_created_on><sys_id>1d2f4cd16478d0107f441ac44f0f1160</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Emergency Contact" display_value="Emergency Contact" name="x_cdltd_covid19_waiting_list" sys_domain="global" view="Default view">94cc04916478d0107f441ac44f0f11bf</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-05-14 12:15:16</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>Emergency Contact</caption><header>false</header><name>x_cdltd_covid19_waiting_list</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-05-14 12:04:49</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>94cc04916478d0107f441ac44f0f11bf</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Emergency Contact</sys_name><sys_overrides/><sys_package display_value="covid19" source="x_cdltd_covid19">8a2abf856438d0107f441ac44f0f115b</sys_package><sys_policy/><sys_scope display_value="covid19">8a2abf856438d0107f441ac44f0f115b</sys_scope><sys_update_name>sys_ui_section_94cc04916478d0107f441ac44f0f11bf</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-05-14 12:04:49</sys_updated_on><sys_user/><title>false</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>1662397313</payload_hash>
+        <record_name>Task</record_name>
+        <reverted_from/>
+        <source>717b37c56438d0107f441ac44f0f1183</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-14 12:15:16</sys_created_on>
+        <sys_id>552f4cd16478d0107f441ac44f0f1162</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>172131c3b710000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-14 12:15:16</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>dd2f4cd1d878d0107a82327e4ab98261</update_guid>
+        <update_guid_history>dd2f4cd1d878d0107a82327e4ab98261:1662397313,34cc4491e478d010f8f2cb7337d1e4c3:115555876</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-14 12:55:11</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>3f5500d1332e4f8ca02105a5d87b2fa1</sys_id>
+        <sys_metadata>94cc04916478d0107f441ac44f0f11bf</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Emergency Contact</sys_name>
+        <sys_package display_value="covid19" source="x_cdltd_covid19">8a2abf856438d0107f441ac44f0f115b</sys_package>
+        <sys_parent display_value="">d4c6409d6438d0107f441ac44f0f11de</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="covid19">8a2abf856438d0107f441ac44f0f115b</sys_scope>
+        <sys_scope_delete display_value="">1958d13663e94a94b6c2d2a44bb4dec9</sys_scope_delete>
+        <sys_update_name>sys_ui_section_94cc04916478d0107f441ac44f0f11bf</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_94cc04916478d0107f441ac44f0f11bf">552f4cd16478d0107f441ac44f0f1162</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-14 12:55:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

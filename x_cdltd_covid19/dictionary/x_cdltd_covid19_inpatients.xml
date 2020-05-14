@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Inpatients" max_length="40" name="x_cdltd_covid19_inpatients" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Address" max_length="40" name="address" type="string"/>
+        <element label="Age" mandatory="true" max_length="40" name="age" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Contact Information" max_length="40" name="contact_information" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Email" max_length="40" name="email" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Phone Number" max_length="40" name="emergency_contact_information" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Emergency Contact Name" mandatory="true" max_length="40" name="e_c_name" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Patient ID" max_length="40" name="patient_id" read_only="true" reference="x_cdltd_covid19_patient_details" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Patient Name" max_length="40" name="patient_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Phone Number" max_length="40" name="phone_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Relation to Patient" max_length="40" name="relation_to_patient" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Severity of case" max_length="40" name="severity_of_case" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Severely Infected" sequence="0" value="severely_infected"/>
+                <element inactive="true" inactive_on_update="true" label="Very High" sequence="0" value="very high"/>
+                <element inactive="true" inactive_on_update="true" label="High" sequence="1" value="high"/>
+                <element inactive_on_update="false" label="Moderately Infected" sequence="1" value="moderately_infected"/>
+                <element inactive="true" inactive_on_update="true" label="Medium" sequence="2" value="medium"/>
+                <element inactive_on_update="false" label="Slightly Infected" sequence="2" value="slightly_infected"/>
+                <element inactive="true" inactive_on_update="true" label="Low" sequence="3" value="low"/>
+            </choice>
+        </element>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element attributes="edge_encryption_enabled=true" label="Underlying Health Conditions" max_length="40" name="underlying_health_conditions" type="string"/>
+        <element attributes="encode_utf8=false" label="Patient ID" max_length="32" name="u_reference_6" reference="x_cdltd_covid19_patient_details" type="reference"/>
+        <element attributes="encode_utf8=false" label="Ward Number" max_length="32" name="ward_number" read_only="true" reference="x_cdltd_covid19_inpatients" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Work Notes" max_length="40" name="work_notes" type="string"/>
+        <index name="index">
+            <element name="ward_number"/>
+        </index>
+        <index name="index2">
+            <element name="sys_class_name"/>
+        </index>
+        <index name="index3">
+            <element name="u_reference_6"/>
+        </index>
+    </element>
+</database>

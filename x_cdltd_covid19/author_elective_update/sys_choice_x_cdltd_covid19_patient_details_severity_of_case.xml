@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="severity_of_case" table="x_cdltd_covid19_patient_details" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>severity_of_case</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>severely infected</label>
+            <language>en</language>
+            <name>x_cdltd_covid19_patient_details</name>
+            <sequence>0</sequence>
+            <sys_created_by>jingwen</sys_created_by>
+            <sys_created_on>2020-05-14 14:21:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3dfbec1564b8d0107f441ac44f0f115b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jingwen</sys_updated_by>
+            <sys_updated_on>2020-05-14 14:21:12</sys_updated_on>
+            <value>severely infected</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>severity_of_case</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>moderately infected</label>
+            <language>en</language>
+            <name>x_cdltd_covid19_patient_details</name>
+            <sequence>1</sequence>
+            <sys_created_by>jingwen</sys_created_by>
+            <sys_created_on>2020-05-14 14:21:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>31fbec1564b8d0107f441ac44f0f115d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jingwen</sys_updated_by>
+            <sys_updated_on>2020-05-14 14:21:12</sys_updated_on>
+            <value>moderately infected</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>severity_of_case</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>slightly infected</label>
+            <language>en</language>
+            <name>x_cdltd_covid19_patient_details</name>
+            <sequence>2</sequence>
+            <sys_created_by>jingwen</sys_created_by>
+            <sys_created_on>2020-05-14 14:21:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bdfbec1564b8d0107f441ac44f0f115d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jingwen</sys_updated_by>
+            <sys_updated_on>2020-05-14 14:21:12</sys_updated_on>
+            <value>slightly infected</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>severity_of_case</element>
+            <name>x_cdltd_covid19_patient_details</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>jingwen</sys_created_by>
+            <sys_created_on>2020-05-14 14:21:12</sys_created_on>
+            <sys_id>75fbec1564b8d0107f441ac44f0f115c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>severity_of_case</sys_name>
+            <sys_package display_value="covid19" source="x_cdltd_covid19">8a2abf856438d0107f441ac44f0f115b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="covid19">8a2abf856438d0107f441ac44f0f115b</sys_scope>
+            <sys_update_name>sys_choice_x_cdltd_covid19_patient_details_severity_of_case</sys_update_name>
+            <sys_updated_by>jingwen</sys_updated_by>
+            <sys_updated_on>2020-05-14 14:21:12</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>
