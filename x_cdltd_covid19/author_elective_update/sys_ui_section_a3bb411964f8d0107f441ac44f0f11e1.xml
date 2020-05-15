@@ -118,7 +118,7 @@
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Emergency Contact</sys_name>
         <sys_package display_value="covid19" source="x_cdltd_covid19">8a2abf856438d0107f441ac44f0f115b</sys_package>
-        <sys_parent display_value="Inpatients">2383c01d6438d0107f441ac44f0f1197</sys_parent>
+        <sys_parent display_value="">2383c01d6438d0107f441ac44f0f1197</sys_parent>
         <sys_policy/>
         <sys_scope display_value="covid19">8a2abf856438d0107f441ac44f0f115b</sys_scope>
         <sys_scope_delete display_value="">1958d13663e94a94b6c2d2a44bb4dec9</sys_scope_delete>

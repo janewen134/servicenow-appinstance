@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="9bdf0c2564b014107f441ac44f0f11ff" sys_domain="global" table="x_cdltd_covid19_inpatient" version="3" view="nurse">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>patient_id</element>
+            <position>0</position>
+            <sys_created_by>jingwen</sys_created_by>
+            <sys_created_on>2020-05-15 07:17:39</sys_created_on>
+            <sys_id>df941ce564b014107f441ac44f0f1151</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cdltd_covid19_inpatient" sys_domain="global" view="893ef41164f8d0107f441ac44f0f112b">9bdf0c2564b014107f441ac44f0f11ff</sys_ui_section>
+            <sys_updated_by>jingwen</sys_updated_by>
+            <sys_updated_on>2020-05-15 07:17:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>status</element>
+            <position>1</position>
+            <sys_created_by>jingwen</sys_created_by>
+            <sys_created_on>2020-05-15 07:17:39</sys_created_on>
+            <sys_id>53941ce564b014107f441ac44f0f1152</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cdltd_covid19_inpatient" sys_domain="global" view="893ef41164f8d0107f441ac44f0f112b">9bdf0c2564b014107f441ac44f0f11ff</sys_ui_section>
+            <sys_updated_by>jingwen</sys_updated_by>
+            <sys_updated_on>2020-05-15 07:17:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_cdltd_covid19_inpatient</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>jingwen</sys_created_by>
+            <sys_created_on>2020-05-15 06:56:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9bdf0c2564b014107f441ac44f0f11ff</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_cdltd_covid19_inpatient</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="covid19" source="x_cdltd_covid19">8a2abf856438d0107f441ac44f0f115b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="covid19">8a2abf856438d0107f441ac44f0f115b</sys_scope>
+            <sys_update_name>sys_ui_section_9bdf0c2564b014107f441ac44f0f11ff</sys_update_name>
+            <sys_updated_by>jingwen</sys_updated_by>
+            <sys_updated_on>2020-05-15 06:56:54</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="nurse" name="nurse">893ef41164f8d0107f441ac44f0f112b</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

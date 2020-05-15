@@ -1,18 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="sys_class_name" table="x_cdltd_covid19_patient_details">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="priority" table="x_cdltd_covid19_patient_details">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
         <attributes/>
         <audit>false</audit>
-        <calculation/>
-        <choice>0</choice>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice>1</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>Class</column_label>
+        <column_label>Priority</column_label>
         <comments/>
         <create_roles/>
-        <default_value>javascript:current.getTableName();</default_value>
+        <default_value/>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -22,14 +27,14 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>sys_class_name</element>
+        <element>priority</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="">sys_class_name</internal_type>
+        <internal_type display_value="Choice">choice</internal_type>
         <mandatory>false</mandatory>
-        <max_length>80</max_length>
+        <max_length>40</max_length>
         <name>x_cdltd_covid19_patient_details</name>
         <next_element/>
         <primary>false</primary>
@@ -47,16 +52,16 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>jingwen</sys_created_by>
-        <sys_created_on>2020-05-14 13:10:12</sys_created_on>
-        <sys_id>39bb18d96478d0107f441ac44f0f1190</sys_id>
+        <sys_created_on>2020-05-15 07:36:05</sys_created_on>
+        <sys_id>e1c814a964b014107f441ac44f0f112a</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Class</sys_name>
+        <sys_name>Priority</sys_name>
         <sys_package display_value="covid19" source="x_cdltd_covid19">8a2abf856438d0107f441ac44f0f115b</sys_package>
         <sys_policy/>
         <sys_scope display_value="covid19">8a2abf856438d0107f441ac44f0f115b</sys_scope>
-        <sys_update_name>sys_dictionary_x_cdltd_covid19_patient_details_sys_class_name</sys_update_name>
+        <sys_update_name>sys_dictionary_x_cdltd_covid19_patient_details_priority</sys_update_name>
         <sys_updated_by>jingwen</sys_updated_by>
-        <sys_updated_on>2020-05-14 13:10:12</sys_updated_on>
+        <sys_updated_on>2020-05-15 07:36:05</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
