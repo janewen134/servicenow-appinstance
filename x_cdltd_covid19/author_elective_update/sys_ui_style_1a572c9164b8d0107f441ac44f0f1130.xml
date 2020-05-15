@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_style">
+    <sys_ui_style action="DELETE">
+        <alt/>
+        <element>severity_of_case</element>
+        <name>x_cdltd_covid19_inpatients</name>
+        <style>background-color:red;</style>
+        <sys_class_name>sys_ui_style</sys_class_name>
+        <sys_created_by>ryansalisbury</sys_created_by>
+        <sys_created_on>2020-05-14 14:34:11</sys_created_on>
+        <sys_id>1a572c9164b8d0107f441ac44f0f1130</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_cdltd_covid19_inpatients</sys_name>
+        <sys_package display_value="covid19" source="x_cdltd_covid19">8a2abf856438d0107f441ac44f0f115b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="covid19">8a2abf856438d0107f441ac44f0f115b</sys_scope>
+        <sys_update_name>sys_ui_style_1a572c9164b8d0107f441ac44f0f1130</sys_update_name>
+        <sys_updated_by>ryansalisbury</sys_updated_by>
+        <sys_updated_on>2020-05-14 14:34:11</sys_updated_on>
+        <value>severely_infected</value>
+    </sys_ui_style>
+    <sys_translated_text action="DELETE" query="documentkey=1a572c9164b8d0107f441ac44f0f1130"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="covid19">8a2abf856438d0107f441ac44f0f115b</application>
+        <file_path/>
+        <instance_id>80c5b013dba058d080d9a18c1396192c</instance_id>
+        <instance_name>adf-may10niw-dev-006</instance_name>
+        <name>sys_ui_style_1a572c9164b8d0107f441ac44f0f1130</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_style"><sys_ui_style action="INSERT_OR_UPDATE"><alt/><element>severity_of_case</element><name>x_cdltd_covid19_inpatients</name><style>background-color:red;</style><sys_class_name>sys_ui_style</sys_class_name><sys_created_by>ryansalisbury</sys_created_by><sys_created_on>2020-05-14 14:34:11</sys_created_on><sys_id>1a572c9164b8d0107f441ac44f0f1130</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_cdltd_covid19_inpatients</sys_name><sys_package display_value="covid19" source="x_cdltd_covid19">8a2abf856438d0107f441ac44f0f115b</sys_package><sys_policy/><sys_scope display_value="covid19">8a2abf856438d0107f441ac44f0f115b</sys_scope><sys_update_name>sys_ui_style_1a572c9164b8d0107f441ac44f0f1130</sys_update_name><sys_updated_by>ryansalisbury</sys_updated_by><sys_updated_on>2020-05-14 14:34:11</sys_updated_on><value>severely_infected</value></sys_ui_style><sys_translated_text action="delete_multiple" query="documentkey=1a572c9164b8d0107f441ac44f0f1130"/></record_update>]]></payload>
+        <payload_hash>-1446788584</payload_hash>
+        <record_name>x_cdltd_covid19_inpatients</record_name>
+        <reverted_from/>
+        <source>e5af77896438d0107f441ac44f0f11a7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>ryansalisbury</sys_created_by>
+        <sys_created_on>2020-05-14 14:34:11</sys_created_on>
+        <sys_id>14fe689564b8d0107f441ac44f0f11b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>172139b69ea0000001</sys_recorded_at>
+        <sys_updated_by>ryansalisbury</sys_updated_by>
+        <sys_updated_on>2020-05-14 14:34:11</sys_updated_on>
+        <type>Style</type>
+        <update_guid>5cfe6895c3b8d010a088465e78fc37b5</update_guid>
+        <update_guid_history>5cfe6895c3b8d010a088465e78fc37b5:-1446788584</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-15 04:07:44</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_style">sys_ui_style</sys_db_object>
+        <sys_id>20bec30a36a84192aa234796e37a81c4</sys_id>
+        <sys_metadata>1a572c9164b8d0107f441ac44f0f1130</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_cdltd_covid19_inpatients</sys_name>
+        <sys_package display_value="covid19" source="x_cdltd_covid19">8a2abf856438d0107f441ac44f0f115b</sys_package>
+        <sys_parent display_value="">2383c01d6438d0107f441ac44f0f1197</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="covid19">8a2abf856438d0107f441ac44f0f115b</sys_scope>
+        <sys_scope_delete display_value="">1958d13663e94a94b6c2d2a44bb4dec9</sys_scope_delete>
+        <sys_update_name>sys_ui_style_1a572c9164b8d0107f441ac44f0f1130</sys_update_name>
+        <sys_update_version display_value="sys_ui_style_1a572c9164b8d0107f441ac44f0f1130">14fe689564b8d0107f441ac44f0f11b6</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-15 04:07:44</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

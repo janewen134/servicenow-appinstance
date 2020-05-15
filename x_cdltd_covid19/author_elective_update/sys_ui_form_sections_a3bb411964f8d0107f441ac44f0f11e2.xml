@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections action="DELETE" form_id="a3bb411964f8d0107f441ac44f0f11e2" sys_domain="global" table="x_cdltd_covid19_inpatients" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>ryansalisbury</sys_created_by>
+            <sys_created_on>2020-05-14 16:40:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>abbb411964f8d0107f441ac44f0f11e4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_cdltd_covid19_inpatients" name="x_cdltd_covid19_inpatients" sys_domain="global" view="63bb411964f8d0107f441ac44f0f11dc">a3bb411964f8d0107f441ac44f0f11e2</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_cdltd_covid19_inpatients" sys_domain="global" view="63bb411964f8d0107f441ac44f0f11dc">2bbb411964f8d0107f441ac44f0f11df</sys_ui_section>
+            <sys_updated_by>ryansalisbury</sys_updated_by>
+            <sys_updated_on>2020-05-14 16:40:02</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_cdltd_covid19_inpatients</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>ryansalisbury</sys_created_by>
+            <sys_created_on>2020-05-14 16:40:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a3bb411964f8d0107f441ac44f0f11e2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_cdltd_covid19_inpatients</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="covid19" source="x_cdltd_covid19">8a2abf856438d0107f441ac44f0f115b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="covid19">8a2abf856438d0107f441ac44f0f115b</sys_scope>
+            <sys_update_name>sys_ui_form_sections_a3bb411964f8d0107f441ac44f0f11e2</sys_update_name>
+            <sys_updated_by>ryansalisbury</sys_updated_by>
+            <sys_updated_on>2020-05-14 16:40:01</sys_updated_on>
+            <sys_user/>
+            <view display_value="NURSE VIEW" name="NURSE_VIEW">63bb411964f8d0107f441ac44f0f11dc</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="covid19">8a2abf856438d0107f441ac44f0f115b</application>
+        <file_path/>
+        <instance_id>80c5b013dba058d080d9a18c1396192c</instance_id>
+        <instance_name>adf-may10niw-dev-006</instance_name>
+        <name>sys_ui_form_sections_a3bb411964f8d0107f441ac44f0f11e2</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_form_sections form_id="a3bb411964f8d0107f441ac44f0f11e2" sys_domain="global" table="x_cdltd_covid19_inpatients" version="3"><sys_ui_form_section action="INSERT_OR_UPDATE"><position>0</position><sys_created_by>ryansalisbury</sys_created_by><sys_created_on>2020-05-14 16:40:02</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>abbb411964f8d0107f441ac44f0f11e4</sys_id><sys_mod_count>0</sys_mod_count><sys_overrides/><sys_ui_form display_value="x_cdltd_covid19_inpatients" name="x_cdltd_covid19_inpatients" sys_domain="global" view="63bb411964f8d0107f441ac44f0f11dc">a3bb411964f8d0107f441ac44f0f11e2</sys_ui_form><sys_ui_section caption="NULL" display_value="" name="x_cdltd_covid19_inpatients" sys_domain="global" view="63bb411964f8d0107f441ac44f0f11dc">2bbb411964f8d0107f441ac44f0f11df</sys_ui_section><sys_updated_by>ryansalisbury</sys_updated_by><sys_updated_on>2020-05-14 16:40:02</sys_updated_on></sys_ui_form_section><sys_ui_form action="INSERT_OR_UPDATE"><name>x_cdltd_covid19_inpatients</name><roles/><sys_class_name>sys_ui_form</sys_class_name><sys_created_by>ryansalisbury</sys_created_by><sys_created_on>2020-05-14 16:40:01</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>a3bb411964f8d0107f441ac44f0f11e2</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_cdltd_covid19_inpatients</sys_name><sys_overrides/><sys_package display_value="covid19" source="x_cdltd_covid19">8a2abf856438d0107f441ac44f0f115b</sys_package><sys_policy/><sys_scope display_value="covid19">8a2abf856438d0107f441ac44f0f115b</sys_scope><sys_update_name>sys_ui_form_sections_a3bb411964f8d0107f441ac44f0f11e2</sys_update_name><sys_updated_by>ryansalisbury</sys_updated_by><sys_updated_on>2020-05-14 16:40:01</sys_updated_on><sys_user/><view display_value="NURSE VIEW" name="NURSE_VIEW">63bb411964f8d0107f441ac44f0f11dc</view><view_name/></sys_ui_form></sys_ui_form_sections></record_update>]]></payload>
+        <payload_hash>-734727039</payload_hash>
+        <record_name>Inpatients</record_name>
+        <reverted_from/>
+        <source>f576cb5964fcd0107f441ac44f0f110a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-15 02:21:31</sys_created_on>
+        <sys_id>25d09f11643014107f441ac44f0f1191</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1721622fd360000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-15 02:21:31</sys_updated_on>
+        <type>Form Sections</type>
+        <update_guid>add09f11fe3014109e1d06237aef7990</update_guid>
+        <update_guid_history>add09f11fe3014109e1d06237aef7990:-734727039,59cf09995ef8d010ba10ed0c2a7d9347:-471030476,e3bb411999f8d010fc981c8b402762f6:1730941420,63bb411929f8d01091b42d0ae50c0cf3:-471030476,2bbb411980f8d010b0bfde90e1244ae3:171272992</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-15 04:07:45</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_form">sys_ui_form</sys_db_object>
+        <sys_id>2cfacf0b05134d608e9b1302ac29e400</sys_id>
+        <sys_metadata>a3bb411964f8d0107f441ac44f0f11e2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_cdltd_covid19_inpatients</sys_name>
+        <sys_package display_value="covid19" source="x_cdltd_covid19">8a2abf856438d0107f441ac44f0f115b</sys_package>
+        <sys_parent display_value="">2383c01d6438d0107f441ac44f0f1197</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="covid19">8a2abf856438d0107f441ac44f0f115b</sys_scope>
+        <sys_scope_delete display_value="">1958d13663e94a94b6c2d2a44bb4dec9</sys_scope_delete>
+        <sys_update_name>sys_ui_form_sections_a3bb411964f8d0107f441ac44f0f11e2</sys_update_name>
+        <sys_update_version display_value="sys_ui_form_sections_a3bb411964f8d0107f441ac44f0f11e2">25d09f11643014107f441ac44f0f1191</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-15 04:07:45</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

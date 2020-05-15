@@ -14,7 +14,7 @@
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Number</column_label>
+        <column_label>Patient ID</column_label>
         <comments/>
         <create_roles/>
         <default_value>javascript:global.getNextObjNumberPadded();</default_value>
@@ -54,14 +54,14 @@
         <sys_created_by>jingwen</sys_created_by>
         <sys_created_on>2020-05-14 15:07:40</sys_created_on>
         <sys_id>a296bc9964b8d0107f441ac44f0f117e</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>Number</sys_name>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Patient ID</sys_name>
         <sys_package display_value="covid19" source="x_cdltd_covid19">8a2abf856438d0107f441ac44f0f115b</sys_package>
         <sys_policy/>
         <sys_scope display_value="covid19">8a2abf856438d0107f441ac44f0f115b</sys_scope>
         <sys_update_name>sys_dictionary_x_cdltd_covid19_patient_details_number</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-15 01:55:47</sys_updated_on>
+        <sys_updated_on>2020-05-15 03:16:25</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

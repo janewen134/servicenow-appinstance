@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="inpatients" max_length="40" name="x_cdltd_covid19_inpatient" type="collection">
+        <element label="Admit Date" max_length="40" name="admit_date" type="glide_date_time"/>
+        <element label="Discharge Date" max_length="40" name="discharge_date" type="glide_date_time"/>
+        <element label="WaitingList ID" max_length="32" name="number" reference="x_cdltd_covid19_waiting_list" type="reference"/>
+        <element label="Patient Id" max_length="32" name="patient_id" reference="x_cdltd_covid19_patient_details" type="reference"/>
+        <element choice="1" display="true" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Healed" sequence="0" value="healed"/>
+                <element inactive_on_update="false" label="In Treatment" sequence="1" value="in _treatment"/>
+            </choice>
+        </element>
+        <element label="Ward Number" max_length="32" name="ward_number" reference="x_cdltd_covid19_wards_and_beds" type="reference"/>
+        <index name="index">
+            <element name="number"/>
+        </index>
+        <index name="index2">
+            <element name="patient_id"/>
+        </index>
+        <index name="index3">
+            <element name="ward_number"/>
+        </index>
+    </element>
+</database>

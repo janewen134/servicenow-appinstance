@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list action="DELETE" parent="" relationship="" sys_domain="global" table="x_cdltd_covid19_inpatients" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>patient_id.number</element>
+            <list_id display_value="x_cdltd_covid19_inpatients" element="NULL" name="x_cdltd_covid19_inpatients" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">250727dd643014107f441ac44f0f11bf</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-05-15 03:58:27</sys_created_on>
+            <sys_id>ed0727dd643014107f441ac44f0f11bf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-05-15 03:58:27</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>patient_id.underlying_health_conditions</element>
+            <list_id display_value="x_cdltd_covid19_inpatients" element="NULL" name="x_cdltd_covid19_inpatients" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">250727dd643014107f441ac44f0f11bf</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-05-15 03:58:27</sys_created_on>
+            <sys_id>610727dd643014107f441ac44f0f11c0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-05-15 03:58:27</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>patient_id.severity_of_case</element>
+            <list_id display_value="x_cdltd_covid19_inpatients" element="NULL" name="x_cdltd_covid19_inpatients" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">250727dd643014107f441ac44f0f11bf</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-05-15 03:58:27</sys_created_on>
+            <sys_id>e10727dd643014107f441ac44f0f11c0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-05-15 03:58:27</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>ward_number.ward_number</element>
+            <list_id display_value="x_cdltd_covid19_inpatients" element="NULL" name="x_cdltd_covid19_inpatients" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">250727dd643014107f441ac44f0f11bf</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-05-15 03:58:27</sys_created_on>
+            <sys_id>650727dd643014107f441ac44f0f11c0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-05-15 03:58:27</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>ward_number.ward_type</element>
+            <list_id display_value="x_cdltd_covid19_inpatients" element="NULL" name="x_cdltd_covid19_inpatients" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">250727dd643014107f441ac44f0f11bf</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-05-15 03:58:27</sys_created_on>
+            <sys_id>e50727dd643014107f441ac44f0f11c0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-05-15 03:58:27</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_cdltd_covid19_inpatients</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-05-15 03:58:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>250727dd643014107f441ac44f0f11bf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_cdltd_covid19_inpatients</sys_name>
+            <sys_package display_value="covid19" source="x_cdltd_covid19">8a2abf856438d0107f441ac44f0f115b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="covid19">8a2abf856438d0107f441ac44f0f115b</sys_scope>
+            <sys_update_name>sys_ui_list_x_cdltd_covid19_inpatients_null</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-05-15 03:58:27</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="covid19">8a2abf856438d0107f441ac44f0f115b</application>
+        <file_path/>
+        <instance_id>80c5b013dba058d080d9a18c1396192c</instance_id>
+        <instance_name>adf-may10niw-dev-006</instance_name>
+        <name>sys_ui_list_x_cdltd_covid19_inpatients_null</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_list parent="" relationship="" sys_domain="global" table="x_cdltd_covid19_inpatients" version="2" view=""><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>patient_id.number</element><list_id display_value="x_cdltd_covid19_inpatients" element="NULL" name="x_cdltd_covid19_inpatients" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">250727dd643014107f441ac44f0f11bf</list_id><max_value>false</max_value><min_value>false</min_value><position>0</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2020-05-15 03:58:27</sys_created_on><sys_id>ed0727dd643014107f441ac44f0f11bf</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-05-15 03:58:27</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>patient_id.underlying_health_conditions</element><list_id display_value="x_cdltd_covid19_inpatients" element="NULL" name="x_cdltd_covid19_inpatients" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">250727dd643014107f441ac44f0f11bf</list_id><max_value>false</max_value><min_value>false</min_value><position>1</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2020-05-15 03:58:27</sys_created_on><sys_id>610727dd643014107f441ac44f0f11c0</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-05-15 03:58:27</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>patient_id.severity_of_case</element><list_id display_value="x_cdltd_covid19_inpatients" element="NULL" name="x_cdltd_covid19_inpatients" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">250727dd643014107f441ac44f0f11bf</list_id><max_value>false</max_value><min_value>false</min_value><position>2</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2020-05-15 03:58:27</sys_created_on><sys_id>e10727dd643014107f441ac44f0f11c0</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-05-15 03:58:27</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>ward_number.ward_number</element><list_id display_value="x_cdltd_covid19_inpatients" element="NULL" name="x_cdltd_covid19_inpatients" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">250727dd643014107f441ac44f0f11bf</list_id><max_value>false</max_value><min_value>false</min_value><position>3</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2020-05-15 03:58:27</sys_created_on><sys_id>650727dd643014107f441ac44f0f11c0</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-05-15 03:58:27</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>ward_number.ward_type</element><list_id display_value="x_cdltd_covid19_inpatients" element="NULL" name="x_cdltd_covid19_inpatients" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">250727dd643014107f441ac44f0f11bf</list_id><max_value>false</max_value><min_value>false</min_value><position>4</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2020-05-15 03:58:27</sys_created_on><sys_id>e50727dd643014107f441ac44f0f11c0</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-05-15 03:58:27</sys_updated_on></sys_ui_list_element><sys_ui_list action="INSERT_OR_UPDATE"><average_value>false</average_value><element/><max_value>false</max_value><min_value>false</min_value><name>x_cdltd_covid19_inpatients</name><parent/><position/><relationship/><sum>false</sum><sys_class_name>sys_ui_list</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-05-15 03:58:27</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>250727dd643014107f441ac44f0f11bf</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_cdltd_covid19_inpatients</sys_name><sys_package display_value="covid19" source="x_cdltd_covid19">8a2abf856438d0107f441ac44f0f115b</sys_package><sys_policy/><sys_scope display_value="covid19">8a2abf856438d0107f441ac44f0f115b</sys_scope><sys_update_name>sys_ui_list_x_cdltd_covid19_inpatients_null</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-05-15 03:58:27</sys_updated_on><sys_user/><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_list></sys_ui_list></record_update>]]></payload>
+        <payload_hash>1857272703</payload_hash>
+        <record_name>Inpatients</record_name>
+        <reverted_from/>
+        <source>7f079f55643014107f441ac44f0f1199</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-15 03:58:28</sys_created_on>
+        <sys_id>690727dd643014107f441ac44f0f11c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>172167bbe9a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-15 03:58:28</sys_updated_on>
+        <type>List Layout</type>
+        <update_guid>610727dd6930141092b844d9da715cc2</update_guid>
+        <update_guid_history>610727dd6930141092b844d9da715cc2:1857272703,7ed6e3dd37301410eb18a465f9f46e45:-1835481783,8c0fc8d13878d010f9a88d6d6ce5fc70:865188901</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-15 04:07:45</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_list">sys_ui_list</sys_db_object>
+        <sys_id>4d375c3a9fd246719eac22bf2d3a3139</sys_id>
+        <sys_metadata>250727dd643014107f441ac44f0f11bf</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_cdltd_covid19_inpatients</sys_name>
+        <sys_package display_value="covid19" source="x_cdltd_covid19">8a2abf856438d0107f441ac44f0f115b</sys_package>
+        <sys_parent display_value="">2383c01d6438d0107f441ac44f0f1197</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="covid19">8a2abf856438d0107f441ac44f0f115b</sys_scope>
+        <sys_scope_delete display_value="">1958d13663e94a94b6c2d2a44bb4dec9</sys_scope_delete>
+        <sys_update_name>sys_ui_list_x_cdltd_covid19_inpatients_null</sys_update_name>
+        <sys_update_version display_value="sys_ui_list_x_cdltd_covid19_inpatients_null">690727dd643014107f441ac44f0f11c2</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-15 04:07:45</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

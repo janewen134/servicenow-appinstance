@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>email</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>jingwen</sys_created_by>
+        <sys_created_on>2020-05-14 17:26:08</sys_created_on>
+        <sys_id>ae26d19d64f8d0107f441ac44f0f112e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>email</sys_name>
+        <sys_package display_value="covid19" source="x_cdltd_covid19">8a2abf856438d0107f441ac44f0f115b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="covid19">8a2abf856438d0107f441ac44f0f115b</sys_scope>
+        <sys_update_name>sys_ui_policy_action_ae26d19d64f8d0107f441ac44f0f112e</sys_update_name>
+        <sys_updated_by>jingwen</sys_updated_by>
+        <sys_updated_on>2020-05-14 17:26:08</sys_updated_on>
+        <table>x_cdltd_covid19_inpatients</table>
+        <ui_policy display_value="ui policy for inpatients">05d051d964f8d0107f441ac44f0f11c2</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="covid19">8a2abf856438d0107f441ac44f0f115b</application>
+        <file_path/>
+        <instance_id>80c5b013dba058d080d9a18c1396192c</instance_id>
+        <instance_name>adf-may10niw-dev-006</instance_name>
+        <name>sys_ui_policy_action_ae26d19d64f8d0107f441ac44f0f112e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>ignore</disabled><field>email</field><mandatory>true</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>jingwen</sys_created_by><sys_created_on>2020-05-14 17:26:08</sys_created_on><sys_id>ae26d19d64f8d0107f441ac44f0f112e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>email</sys_name><sys_package display_value="covid19" source="x_cdltd_covid19">8a2abf856438d0107f441ac44f0f115b</sys_package><sys_policy/><sys_scope display_value="covid19">8a2abf856438d0107f441ac44f0f115b</sys_scope><sys_update_name>sys_ui_policy_action_ae26d19d64f8d0107f441ac44f0f112e</sys_update_name><sys_updated_by>jingwen</sys_updated_by><sys_updated_on>2020-05-14 17:26:08</sys_updated_on><table>x_cdltd_covid19_inpatients</table><ui_policy display_value="ui policy for inpatients">05d051d964f8d0107f441ac44f0f11c2</ui_policy><visible>ignore</visible></sys_ui_policy_action></record_update>]]></payload>
+        <payload_hash>-722542127</payload_hash>
+        <record_name>email</record_name>
+        <reverted_from/>
+        <source>b25d33496438d0107f441ac44f0f1112</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>jingwen</sys_created_by>
+        <sys_created_on>2020-05-14 17:26:08</sys_created_on>
+        <sys_id>3646d19d64f8d0107f441ac44f0f113b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1721438d4830000001</sys_recorded_at>
+        <sys_updated_by>jingwen</sys_updated_by>
+        <sys_updated_on>2020-05-14 17:26:08</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>7e46d19daef8d0107bb32d6c532c843a</update_guid>
+        <update_guid_history>7e46d19daef8d0107bb32d6c532c843a:-722542127</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-15 04:07:40</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>058c3c15468143009e8556ec40f02040</sys_id>
+        <sys_metadata>ae26d19d64f8d0107f441ac44f0f112e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>email</sys_name>
+        <sys_package display_value="covid19" source="x_cdltd_covid19">8a2abf856438d0107f441ac44f0f115b</sys_package>
+        <sys_parent display_value="">05d051d964f8d0107f441ac44f0f11c2</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="covid19">8a2abf856438d0107f441ac44f0f115b</sys_scope>
+        <sys_scope_delete display_value="">1958d13663e94a94b6c2d2a44bb4dec9</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_ae26d19d64f8d0107f441ac44f0f112e</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_ae26d19d64f8d0107f441ac44f0f112e">3646d19d64f8d0107f441ac44f0f113b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-15 04:07:40</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
