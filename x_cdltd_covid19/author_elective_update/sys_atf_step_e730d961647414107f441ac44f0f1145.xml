@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>true</active>
+        <copied_from/>
+        <description>Set the following values on the form:
+Admit = true
+and admit date = 2020-05-15</description>
+        <display_name>Set Field Values</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>1</order>
+        <snapshot/>
+        <step_config display_value="Set Field Values">fcae4a935332120028bc29cac2dc340e</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-15 11:41:31</sys_created_on>
+        <sys_id>e730d961647414107f441ac44f0f1145</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Set Field Values</sys_name>
+        <sys_package display_value="covid19" source="x_cdltd_covid19">8a2abf856438d0107f441ac44f0f115b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="covid19">8a2abf856438d0107f441ac44f0f115b</sys_scope>
+        <sys_update_name>sys_atf_step_e730d961647414107f441ac44f0f1145</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-15 11:54:42</sys_updated_on>
+        <table>x_cdltd_covid19_waiting_list</table>
+        <test display_value="">b81fcd21647414107f441ac44f0f118d</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="DELETE" query="document_key=e730d961647414107f441ac44f0f1145"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>e730d961647414107f441ac44f0f1145</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-15 11:41:31</sys_created_on>
+        <sys_id>240119a1647414107f441ac44f0f11ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-15 11:41:31</sys_updated_on>
+        <value>admit=true^admit_date=2020-05-15^EQ</value>
+        <variable display_value="">b3dba2465320220002c6435723dc34f0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>e730d961647414107f441ac44f0f1145</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-15 11:41:31</sys_created_on>
+        <sys_id>600119a1647414107f441ac44f0f11ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-15 11:41:31</sys_updated_on>
+        <value>x_cdltd_covid19_waiting_list</value>
+        <variable display_value="">424ca6465320220002c6435723dc34b5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>e730d961647414107f441ac44f0f1145</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-15 11:41:31</sys_created_on>
+        <sys_id>6c0119a1647414107f441ac44f0f11c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-15 11:41:31</sys_updated_on>
+        <value>standard_ui</value>
+        <variable display_value="">946f3c1a0f23330072e6452bc4767eda</variable>
+    </sys_variable_value>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="covid19">8a2abf856438d0107f441ac44f0f115b</application>
+        <file_path/>
+        <instance_id>80c5b013dba058d080d9a18c1396192c</instance_id>
+        <instance_name>adf-may10niw-dev-006</instance_name>
+        <name>sys_atf_step_e730d961647414107f441ac44f0f1145</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><copied_from/><description>Set the following values on the form:
+Admit = true
+and admit date = 2020-05-15</description><display_name>Set Field Values</display_name><inputs/><mugshots_cache_json/><notes/><order>1</order><snapshot/><step_config display_value="Set Field Values">fcae4a935332120028bc29cac2dc340e</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-05-15 11:41:31</sys_created_on><sys_id>e730d961647414107f441ac44f0f1145</sys_id><sys_mod_count>4</sys_mod_count><sys_name>Set Field Values</sys_name><sys_package display_value="covid19" source="x_cdltd_covid19">8a2abf856438d0107f441ac44f0f115b</sys_package><sys_policy/><sys_scope display_value="covid19">8a2abf856438d0107f441ac44f0f115b</sys_scope><sys_update_name>sys_atf_step_e730d961647414107f441ac44f0f1145</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-05-15 11:54:42</sys_updated_on><table>x_cdltd_covid19_waiting_list</table><test display_value="">b81fcd21647414107f441ac44f0f118d</test><timeout/><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=e730d961647414107f441ac44f0f1145"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>e730d961647414107f441ac44f0f1145</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-05-15 11:41:31</sys_created_on><sys_id>240119a1647414107f441ac44f0f11ca</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-05-15 11:41:31</sys_updated_on><value>admit=true^admit_date=2020-05-15^EQ</value><variable display_value="">b3dba2465320220002c6435723dc34f0</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>e730d961647414107f441ac44f0f1145</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-05-15 11:41:31</sys_created_on><sys_id>600119a1647414107f441ac44f0f11ca</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-05-15 11:41:31</sys_updated_on><value>x_cdltd_covid19_waiting_list</value><variable display_value="">424ca6465320220002c6435723dc34b5</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>e730d961647414107f441ac44f0f1145</document_key><order>50</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-05-15 11:41:31</sys_created_on><sys_id>6c0119a1647414107f441ac44f0f11c9</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-05-15 11:41:31</sys_updated_on><value>standard_ui</value><variable display_value="">946f3c1a0f23330072e6452bc4767eda</variable></sys_variable_value></record_update>]]></payload>
+        <payload_hash>948078490</payload_hash>
+        <record_name>Set Field Values</record_name>
+        <reverted_from/>
+        <source>7f079f55643014107f441ac44f0f1199</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-15 11:54:42</sys_created_on>
+        <sys_id>b9045565647414107f441ac44f0f114e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>172182fc2c20000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-15 11:54:42</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>f1045565e17414109ec37f158e0bf04e</update_guid>
+        <update_guid_history>f1045565e17414109ec37f158e0bf04e:948078490,b9045565d37414101b9abf6c55889941:-580910343,ac0119a1d57414104acdc1f1b7d383cb:1867148585</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-15 11:54:42</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>b3465850d3124dd895071e1adb327c90</sys_id>
+        <sys_metadata>e730d961647414107f441ac44f0f1145</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Set Field Values</sys_name>
+        <sys_package display_value="covid19" source="x_cdltd_covid19">8a2abf856438d0107f441ac44f0f115b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="covid19">8a2abf856438d0107f441ac44f0f115b</sys_scope>
+        <sys_scope_delete display_value="">1958d13663e94a94b6c2d2a44bb4dec9</sys_scope_delete>
+        <sys_update_name>sys_atf_step_e730d961647414107f441ac44f0f1145</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_e730d961647414107f441ac44f0f1145">b9045565647414107f441ac44f0f114e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-15 11:54:42</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

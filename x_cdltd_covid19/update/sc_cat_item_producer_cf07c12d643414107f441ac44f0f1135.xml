@@ -19,7 +19,7 @@
         <icon/>
         <ignore_price>false</ignore_price>
         <image/>
-        <list_price/>
+        <list_price>0</list_price>
         <location/>
         <mandatory_attachment>false</mandatory_attachment>
         <meta/>
@@ -45,9 +45,9 @@
         <picture/>
         <post_insert_script/>
         <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=cf07c12d643414107f441ac44f0f1135&amp;sysparm_preview=true", "summary");</preview>
-        <price/>
+        <price>0</price>
         <recurring_frequency/>
-        <recurring_price/>
+        <recurring_price>0</recurring_price>
         <redirect_url>generated_record</redirect_url>
         <request_method/>
         <roles/>

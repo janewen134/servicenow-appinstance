@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
     <question_choice action="INSERT_OR_UPDATE">
-        <misc/>
+        <misc>0</misc>
         <order>2</order>
         <question display_value="Bed Occupancy">9707052d643414107f441ac44f0f11ba</question>
-        <rec_misc/>
+        <rec_misc>0</rec_misc>
         <sys_class_name>question_choice</sys_class_name>
         <sys_created_by>jingwen</sys_created_by>
         <sys_created_on>2020-05-15 10:58:01</sys_created_on>

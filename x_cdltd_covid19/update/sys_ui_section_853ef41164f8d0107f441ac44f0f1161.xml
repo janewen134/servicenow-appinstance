@@ -4,13 +4,13 @@
             <element>number</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-05-15 10:56:25</sys_created_on>
-            <sys_id>8cb6cde9643414107f441ac44f0f11a8</sys_id>
+            <sys_created_on>2020-05-15 11:41:03</sys_created_on>
+            <sys_id>79e0d5a1647414107f441ac44f0f118a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_cdltd_covid19_waiting_list" sys_domain="global" view="893ef41164f8d0107f441ac44f0f112b">853ef41164f8d0107f441ac44f0f1161</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-05-15 10:56:25</sys_updated_on>
+            <sys_updated_on>2020-05-15 11:41:03</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>patient_id</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-05-15 10:56:25</sys_created_on>
-            <sys_id>04b6cde9643414107f441ac44f0f11a9</sys_id>
+            <sys_created_on>2020-05-15 11:41:03</sys_created_on>
+            <sys_id>fde0d5a1647414107f441ac44f0f118a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_cdltd_covid19_waiting_list" sys_domain="global" view="893ef41164f8d0107f441ac44f0f112b">853ef41164f8d0107f441ac44f0f1161</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-05-15 10:56:25</sys_updated_on>
+            <sys_updated_on>2020-05-15 11:41:03</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>patient_id.severity_of_case</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-05-15 10:56:25</sys_created_on>
-            <sys_id>84b6cde9643414107f441ac44f0f11a9</sys_id>
+            <sys_created_on>2020-05-15 11:41:03</sys_created_on>
+            <sys_id>71e0d5a1647414107f441ac44f0f118b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_cdltd_covid19_waiting_list" sys_domain="global" view="893ef41164f8d0107f441ac44f0f112b">853ef41164f8d0107f441ac44f0f1161</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-05-15 10:56:25</sys_updated_on>
+            <sys_updated_on>2020-05-15 11:41:03</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,13 +46,13 @@
             <element>patient_id.underlying_health_conditions</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-05-15 10:56:25</sys_created_on>
-            <sys_id>08b6cde9643414107f441ac44f0f11a9</sys_id>
+            <sys_created_on>2020-05-15 11:41:03</sys_created_on>
+            <sys_id>f1e0d5a1647414107f441ac44f0f118b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_cdltd_covid19_waiting_list" sys_domain="global" view="893ef41164f8d0107f441ac44f0f112b">853ef41164f8d0107f441ac44f0f1161</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-05-15 10:56:25</sys_updated_on>
+            <sys_updated_on>2020-05-15 11:41:03</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -60,13 +60,27 @@
             <element>admit</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-05-15 10:56:25</sys_created_on>
-            <sys_id>88b6cde9643414107f441ac44f0f11a9</sys_id>
+            <sys_created_on>2020-05-15 11:41:03</sys_created_on>
+            <sys_id>75e0d5a1647414107f441ac44f0f118b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_cdltd_covid19_waiting_list" sys_domain="global" view="893ef41164f8d0107f441ac44f0f112b">853ef41164f8d0107f441ac44f0f1161</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-05-15 10:56:25</sys_updated_on>
+            <sys_updated_on>2020-05-15 11:41:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>admit_date</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-05-15 11:41:03</sys_created_on>
+            <sys_id>f5e0d5a1647414107f441ac44f0f118b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cdltd_covid19_waiting_list" sys_domain="global" view="893ef41164f8d0107f441ac44f0f112b">853ef41164f8d0107f441ac44f0f1161</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-05-15 11:41:03</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

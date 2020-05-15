@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>true</active>
+        <copied_from/>
+        <description>Create and impersonate user with first name 'Jessy' and last name 'Mouse'
+With roles: x_cdltd_covid19.nurse</description>
+        <display_name>Create a User</display_name>
+        <inputs/>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>1</order>
+        <snapshot/>
+        <step_config display_value="Create a User">d9bc5f21ff6033008d3f5d9ad53bf12d</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-15 11:35:15</sys_created_on>
+        <sys_id>a44f4161647414107f441ac44f0f1165</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Create a User</sys_name>
+        <sys_package display_value="covid19" source="x_cdltd_covid19">8a2abf856438d0107f441ac44f0f115b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="covid19">8a2abf856438d0107f441ac44f0f115b</sys_scope>
+        <sys_update_name>sys_atf_step_a44f4161647414107f441ac44f0f1165</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-15 11:35:15</sys_updated_on>
+        <table/>
+        <test display_value="covid19 test ok">b81fcd21647414107f441ac44f0f118d</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="DELETE" query="document_key=a44f4161647414107f441ac44f0f1165"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>a44f4161647414107f441ac44f0f1165</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-15 11:35:15</sys_created_on>
+        <sys_id>3c9f0561647414107f441ac44f0f116c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-15 11:35:15</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">98c44875ffa033008d3f5d9ad53bf1fa</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>a44f4161647414107f441ac44f0f1165</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-15 11:35:15</sys_created_on>
+        <sys_id>3c9f0561647414107f441ac44f0f116d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-15 11:35:15</sys_updated_on>
+        <value>Jessy</value>
+        <variable display_value="">1985e0ceff2433008d3f5d9ad53bf1ba</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>a44f4161647414107f441ac44f0f1165</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-15 11:35:15</sys_created_on>
+        <sys_id>789f0561647414107f441ac44f0f116d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-15 11:35:15</sys_updated_on>
+        <value>Mouse</value>
+        <variable display_value="">6f69fc4aff6433008d3f5d9ad53bf18c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>a44f4161647414107f441ac44f0f1165</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-15 11:35:15</sys_created_on>
+        <sys_id>b49f0561647414107f441ac44f0f116d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-15 11:35:15</sys_updated_on>
+        <value/>
+        <variable display_value="">b27b2b29ff6033008d3f5d9ad53bf164</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>a44f4161647414107f441ac44f0f1165</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-15 11:35:15</sys_created_on>
+        <sys_id>f09f0561647414107f441ac44f0f116d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-15 11:35:15</sys_updated_on>
+        <value>769ab7416438d0107f441ac44f0f1163</value>
+        <variable display_value="">8c07aba5ff6033008d3f5d9ad53bf13b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=a44f4161647414107f441ac44f0f1165"/>
+    <sys_element_mapping action="DELETE">
+        <field>first_name</field>
+        <id>a44f4161647414107f441ac44f0f1165</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-15 11:35:15</sys_created_on>
+        <sys_id>349fc161647414107f441ac44f0f1167</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-15 11:35:15</sys_updated_on>
+        <table>var__m_atf_input_variable_d9bc5f21ff6033008d3f5d9ad53bf12d</table>
+        <value>Jessy</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>groups</field>
+        <id>a44f4161647414107f441ac44f0f1165</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-15 11:35:15</sys_created_on>
+        <sys_id>b89fc161647414107f441ac44f0f1166</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-15 11:35:15</sys_updated_on>
+        <table>var__m_atf_input_variable_d9bc5f21ff6033008d3f5d9ad53bf12d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>last_name</field>
+        <id>a44f4161647414107f441ac44f0f1165</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-15 11:35:15</sys_created_on>
+        <sys_id>709fc161647414107f441ac44f0f1167</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-15 11:35:15</sys_updated_on>
+        <table>var__m_atf_input_variable_d9bc5f21ff6033008d3f5d9ad53bf12d</table>
+        <value>Mouse</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>roles</field>
+        <id>a44f4161647414107f441ac44f0f1165</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-15 11:35:15</sys_created_on>
+        <sys_id>f49fc161647414107f441ac44f0f1167</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-15 11:35:15</sys_updated_on>
+        <table>var__m_atf_input_variable_d9bc5f21ff6033008d3f5d9ad53bf12d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="covid19">8a2abf856438d0107f441ac44f0f115b</application>
+        <file_path/>
+        <instance_id>80c5b013dba058d080d9a18c1396192c</instance_id>
+        <instance_name>adf-may10niw-dev-006</instance_name>
+        <name>sys_atf_step_a44f4161647414107f441ac44f0f1165</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><copied_from/><description>Create and impersonate user with first name 'Jessy' and last name 'Mouse'
+With roles: x_cdltd_covid19.nurse</description><display_name>Create a User</display_name><inputs/><inputs/><mugshots_cache_json/><notes/><order>1</order><snapshot/><step_config display_value="Create a User">d9bc5f21ff6033008d3f5d9ad53bf12d</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-05-15 11:35:15</sys_created_on><sys_id>a44f4161647414107f441ac44f0f1165</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Create a User</sys_name><sys_package display_value="covid19" source="x_cdltd_covid19">8a2abf856438d0107f441ac44f0f115b</sys_package><sys_policy/><sys_scope display_value="covid19">8a2abf856438d0107f441ac44f0f115b</sys_scope><sys_update_name>sys_atf_step_a44f4161647414107f441ac44f0f1165</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-05-15 11:35:15</sys_updated_on><table/><test display_value="covid19 test ok">b81fcd21647414107f441ac44f0f118d</test><timeout/><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=a44f4161647414107f441ac44f0f1165"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>a44f4161647414107f441ac44f0f1165</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-05-15 11:35:15</sys_created_on><sys_id>3c9f0561647414107f441ac44f0f116c</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-05-15 11:35:15</sys_updated_on><value>1</value><variable display_value="">98c44875ffa033008d3f5d9ad53bf1fa</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>a44f4161647414107f441ac44f0f1165</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-05-15 11:35:15</sys_created_on><sys_id>3c9f0561647414107f441ac44f0f116d</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-05-15 11:35:15</sys_updated_on><value>Jessy</value><variable display_value="">1985e0ceff2433008d3f5d9ad53bf1ba</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>a44f4161647414107f441ac44f0f1165</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-05-15 11:35:15</sys_created_on><sys_id>789f0561647414107f441ac44f0f116d</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-05-15 11:35:15</sys_updated_on><value>Mouse</value><variable display_value="">6f69fc4aff6433008d3f5d9ad53bf18c</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>a44f4161647414107f441ac44f0f1165</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-05-15 11:35:15</sys_created_on><sys_id>b49f0561647414107f441ac44f0f116d</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-05-15 11:35:15</sys_updated_on><value/><variable display_value="">b27b2b29ff6033008d3f5d9ad53bf164</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>a44f4161647414107f441ac44f0f1165</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-05-15 11:35:15</sys_created_on><sys_id>f09f0561647414107f441ac44f0f116d</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-05-15 11:35:15</sys_updated_on><value>769ab7416438d0107f441ac44f0f1163</value><variable display_value="">8c07aba5ff6033008d3f5d9ad53bf13b</variable></sys_variable_value><sys_element_mapping action="delete_multiple" query="id=a44f4161647414107f441ac44f0f1165"/><sys_element_mapping action="INSERT_OR_UPDATE"><field>first_name</field><id>a44f4161647414107f441ac44f0f1165</id><sys_created_by>admin</sys_created_by><sys_created_on>2020-05-15 11:35:15</sys_created_on><sys_id>349fc161647414107f441ac44f0f1167</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-05-15 11:35:15</sys_updated_on><table>var__m_atf_input_variable_d9bc5f21ff6033008d3f5d9ad53bf12d</table><value>Jessy</value></sys_element_mapping><sys_element_mapping action="INSERT_OR_UPDATE"><field>groups</field><id>a44f4161647414107f441ac44f0f1165</id><sys_created_by>admin</sys_created_by><sys_created_on>2020-05-15 11:35:15</sys_created_on><sys_id>b89fc161647414107f441ac44f0f1166</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-05-15 11:35:15</sys_updated_on><table>var__m_atf_input_variable_d9bc5f21ff6033008d3f5d9ad53bf12d</table><value/></sys_element_mapping><sys_element_mapping action="INSERT_OR_UPDATE"><field>last_name</field><id>a44f4161647414107f441ac44f0f1165</id><sys_created_by>admin</sys_created_by><sys_created_on>2020-05-15 11:35:15</sys_created_on><sys_id>709fc161647414107f441ac44f0f1167</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-05-15 11:35:15</sys_updated_on><table>var__m_atf_input_variable_d9bc5f21ff6033008d3f5d9ad53bf12d</table><value>Mouse</value></sys_element_mapping><sys_element_mapping action="INSERT_OR_UPDATE"><field>roles</field><id>a44f4161647414107f441ac44f0f1165</id><sys_created_by>admin</sys_created_by><sys_created_on>2020-05-15 11:35:15</sys_created_on><sys_id>f49fc161647414107f441ac44f0f1167</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-05-15 11:35:15</sys_updated_on><table>var__m_atf_input_variable_d9bc5f21ff6033008d3f5d9ad53bf12d</table><value/></sys_element_mapping></record_update>]]></payload>
+        <payload_hash>-1830882693</payload_hash>
+        <record_name>Create a User</record_name>
+        <reverted_from/>
+        <source>7f079f55643014107f441ac44f0f1199</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-15 11:35:15</sys_created_on>
+        <sys_id>f89f0561647414107f441ac44f0f1170</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>172181df3450000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-15 11:35:15</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>349f05619874141036d91a36a4762670</update_guid>
+        <update_guid_history>349f05619874141036d91a36a4762670:-1830882693</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-15 11:54:42</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>81fd9a43c87f410087fc0b6b3fc31000</sys_id>
+        <sys_metadata>a44f4161647414107f441ac44f0f1165</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Create a User</sys_name>
+        <sys_package display_value="covid19" source="x_cdltd_covid19">8a2abf856438d0107f441ac44f0f115b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="covid19">8a2abf856438d0107f441ac44f0f115b</sys_scope>
+        <sys_scope_delete display_value="">1958d13663e94a94b6c2d2a44bb4dec9</sys_scope_delete>
+        <sys_update_name>sys_atf_step_a44f4161647414107f441ac44f0f1165</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_a44f4161647414107f441ac44f0f1165">f89f0561647414107f441ac44f0f1170</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-15 11:54:42</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
