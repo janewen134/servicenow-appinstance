@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Healed Patients" max_length="40" name="x_cdltd_covid19_healed_patients" type="collection">
+    <element label="Healed Patients" max_length="40" name="x_cdltd_covid19_healed_patients" sizeclass="7" type="collection">
         <element display="true" label="Admit Date" mandatory="true" max_length="40" name="admit_date" type="glide_date"/>
         <element label="Discharge Date" mandatory="true" max_length="40" name="discharge_date" type="glide_date_time"/>
         <element label="Name" max_length="30" name="name" type="string"/>

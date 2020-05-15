@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="inpatients" max_length="40" name="x_cdltd_covid19_inpatient" type="collection">
+    <element label="inpatients" max_length="40" name="x_cdltd_covid19_inpatient" sizeclass="9" type="collection">
         <element label="Admit Date" max_length="40" name="admit_date" type="glide_date_time"/>
         <element label="Discharge Date" max_length="40" name="discharge_date" type="glide_date_time"/>
         <element label="WaitingList ID" max_length="32" name="number" reference="x_cdltd_covid19_waiting_list" type="reference"/>
@@ -11,6 +11,7 @@
             </choice>
         </element>
         <element label="Ward Number" max_length="32" name="ward_number" reference="x_cdltd_covid19_wards_and_beds" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Ward Round Reminder" max_length="40" name="ward_round_reminder" type="glide_date_time"/>
         <index name="index">
             <element name="number"/>
         </index>
