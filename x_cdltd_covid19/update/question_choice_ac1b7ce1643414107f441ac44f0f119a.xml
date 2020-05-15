@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
     <question_choice action="INSERT_OR_UPDATE">
-        <misc>0</misc>
+        <misc/>
         <order>100</order>
         <question display_value="Relation to Patient">1bc9fca1643414107f441ac44f0f1103</question>
-        <rec_misc>0</rec_misc>
+        <rec_misc/>
         <sys_class_name>question_choice</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-05-15 10:05:54</sys_created_on>

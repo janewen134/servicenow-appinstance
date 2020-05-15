@@ -4,13 +4,13 @@
             <element>em_name</element>
             <position>0</position>
             <sys_created_by>jingwen</sys_created_by>
-            <sys_created_on>2020-05-15 07:43:58</sys_created_on>
-            <sys_id>f4aad4e964b014107f441ac44f0f11fb</sys_id>
+            <sys_created_on>2020-05-15 12:38:32</sys_created_on>
+            <sys_id>7f0ed92d647414107f441ac44f0f119d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Emergency Contact Information" display_value="Emergency Contact Information" name="x_cdltd_covid19_patient_details" sys_domain="global" view="0c501d9964f8d0107f441ac44f0f11dc">7caad4e964b014107f441ac44f0f11d8</sys_ui_section>
             <sys_updated_by>jingwen</sys_updated_by>
-            <sys_updated_on>2020-05-15 07:43:58</sys_updated_on>
+            <sys_updated_on>2020-05-15 12:38:32</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,55 +18,55 @@
             <element>relation_to_patient</element>
             <position>1</position>
             <sys_created_by>jingwen</sys_created_by>
-            <sys_created_on>2020-05-15 07:43:58</sys_created_on>
-            <sys_id>78aad4e964b014107f441ac44f0f11fb</sys_id>
+            <sys_created_on>2020-05-15 12:38:32</sys_created_on>
+            <sys_id>cc1ed92d647414107f441ac44f0f119d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Emergency Contact Information" display_value="Emergency Contact Information" name="x_cdltd_covid19_patient_details" sys_domain="global" view="0c501d9964f8d0107f441ac44f0f11dc">7caad4e964b014107f441ac44f0f11d8</sys_ui_section>
             <sys_updated_by>jingwen</sys_updated_by>
-            <sys_updated_on>2020-05-15 07:43:58</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>em_email</element>
-            <position>2</position>
-            <sys_created_by>jingwen</sys_created_by>
-            <sys_created_on>2020-05-15 07:43:58</sys_created_on>
-            <sys_id>f8aad4e964b014107f441ac44f0f11fb</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Emergency Contact Information" display_value="Emergency Contact Information" name="x_cdltd_covid19_patient_details" sys_domain="global" view="0c501d9964f8d0107f441ac44f0f11dc">7caad4e964b014107f441ac44f0f11d8</sys_ui_section>
-            <sys_updated_by>jingwen</sys_updated_by>
-            <sys_updated_on>2020-05-15 07:43:58</sys_updated_on>
+            <sys_updated_on>2020-05-15 12:38:32</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>3</position>
+            <position>2</position>
             <sys_created_by>jingwen</sys_created_by>
-            <sys_created_on>2020-05-15 07:43:58</sys_created_on>
-            <sys_id>7caad4e964b014107f441ac44f0f11fb</sys_id>
+            <sys_created_on>2020-05-15 12:38:32</sys_created_on>
+            <sys_id>401ed92d647414107f441ac44f0f119e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Emergency Contact Information" display_value="Emergency Contact Information" name="x_cdltd_covid19_patient_details" sys_domain="global" view="0c501d9964f8d0107f441ac44f0f11dc">7caad4e964b014107f441ac44f0f11d8</sys_ui_section>
             <sys_updated_by>jingwen</sys_updated_by>
-            <sys_updated_on>2020-05-15 07:43:58</sys_updated_on>
+            <sys_updated_on>2020-05-15 12:38:32</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>em_phone</element>
-            <position>4</position>
+            <position>3</position>
             <sys_created_by>jingwen</sys_created_by>
-            <sys_created_on>2020-05-15 07:43:58</sys_created_on>
-            <sys_id>fcaad4e964b014107f441ac44f0f11fb</sys_id>
+            <sys_created_on>2020-05-15 12:38:32</sys_created_on>
+            <sys_id>c01ed92d647414107f441ac44f0f119e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Emergency Contact Information" display_value="Emergency Contact Information" name="x_cdltd_covid19_patient_details" sys_domain="global" view="0c501d9964f8d0107f441ac44f0f11dc">7caad4e964b014107f441ac44f0f11d8</sys_ui_section>
             <sys_updated_by>jingwen</sys_updated_by>
-            <sys_updated_on>2020-05-15 07:43:58</sys_updated_on>
+            <sys_updated_on>2020-05-15 12:38:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>em_email</element>
+            <position>4</position>
+            <sys_created_by>jingwen</sys_created_by>
+            <sys_created_on>2020-05-15 12:38:32</sys_created_on>
+            <sys_id>441ed92d647414107f441ac44f0f119e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Emergency Contact Information" display_value="Emergency Contact Information" name="x_cdltd_covid19_patient_details" sys_domain="global" view="0c501d9964f8d0107f441ac44f0f11dc">7caad4e964b014107f441ac44f0f11d8</sys_ui_section>
+            <sys_updated_by>jingwen</sys_updated_by>
+            <sys_updated_on>2020-05-15 12:38:32</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

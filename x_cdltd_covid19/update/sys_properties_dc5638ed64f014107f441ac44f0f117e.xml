@@ -5,23 +5,23 @@
         <ignore_cache>false</ignore_cache>
         <is_private>false</is_private>
         <name>x_cdltd_covid19.remd.leadtime</name>
-        <read_roles>x_cdltd_covid19.nurse</read_roles>
+        <read_roles>x_cdltd_covid19.nurse,x_cdltd_covid19.patient</read_roles>
         <suffix>remd.leadtime</suffix>
         <sys_class_name>sys_properties</sys_class_name>
         <sys_created_by>jingwen</sys_created_by>
         <sys_created_on>2020-05-15 09:47:10</sys_created_on>
         <sys_id>dc5638ed64f014107f441ac44f0f117e</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>x_cdltd_covid19.remd.leadtime</sys_name>
         <sys_package display_value="covid19" source="x_cdltd_covid19">8a2abf856438d0107f441ac44f0f115b</sys_package>
         <sys_policy/>
         <sys_scope display_value="covid19">8a2abf856438d0107f441ac44f0f115b</sys_scope>
         <sys_update_name>sys_properties_dc5638ed64f014107f441ac44f0f117e</sys_update_name>
         <sys_updated_by>jingwen</sys_updated_by>
-        <sys_updated_on>2020-05-15 09:50:33</sys_updated_on>
+        <sys_updated_on>2020-05-15 12:24:03</sys_updated_on>
         <type>string</type>
         <value>Just call us at 000-000-000 if you are feeling uncomfortable!</value>
-        <write_roles>x_cdltd_covid19.patient</write_roles>
+        <write_roles>x_cdltd_covid19.patient,x_cdltd_covid19.nurse</write_roles>
     </sys_properties>
     <sys_translated_text action="delete_multiple" query="documentkey=dc5638ed64f014107f441ac44f0f117e"/>
 </record_update>

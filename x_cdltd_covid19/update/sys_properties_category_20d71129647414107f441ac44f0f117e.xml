@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties_category">
+    <sys_properties_category action="INSERT_OR_UPDATE">
+        <name>Daily Inform</name>
+        <sys_class_name>sys_properties_category</sys_class_name>
+        <sys_created_by>jingwen</sys_created_by>
+        <sys_created_on>2020-05-15 12:12:22</sys_created_on>
+        <sys_id>20d71129647414107f441ac44f0f117e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Daily Inform</sys_name>
+        <sys_package display_value="covid19" source="x_cdltd_covid19">8a2abf856438d0107f441ac44f0f115b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="covid19">8a2abf856438d0107f441ac44f0f115b</sys_scope>
+        <sys_update_name>sys_properties_category_20d71129647414107f441ac44f0f117e</sys_update_name>
+        <sys_updated_by>jingwen</sys_updated_by>
+        <sys_updated_on>2020-05-15 12:13:30</sys_updated_on>
+        <title><![CDATA[<p>Daily Inform</p>]]></title>
+    </sys_properties_category>
+    <sys_translated_text action="delete_multiple" query="documentkey=20d71129647414107f441ac44f0f117e"/>
+</record_update>
