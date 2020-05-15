@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="DELETE">
+        <active>true</active>
+        <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name>Waiting List</name>
+        <order>100</order>
+        <roles>x_cdltd_covid19.waiting_list_user</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-14 11:27:23</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8834081d6438d0107f441ac44f0f1190</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Waiting List</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="covid19" source="x_cdltd_covid19">8a2abf856438d0107f441ac44f0f115b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="covid19">8a2abf856438d0107f441ac44f0f115b</sys_scope>
+        <sys_update_name>sys_app_application_8834081d6438d0107f441ac44f0f1190</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-14 11:27:23</sys_updated_on>
+        <title>Waiting List</title>
+        <view_name/>
+    </sys_app_application>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="covid19">8a2abf856438d0107f441ac44f0f115b</application>
+        <file_path/>
+        <instance_id>80c5b013dba058d080d9a18c1396192c</instance_id>
+        <instance_name>adf-may10niw-dev-006</instance_name>
+        <name>sys_app_application_8834081d6438d0107f441ac44f0f1190</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application"><sys_app_application action="INSERT_OR_UPDATE"><active>true</active><category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category><description/><device_type>browser</device_type><hint/><name>Waiting List</name><order>100</order><roles>x_cdltd_covid19.waiting_list_user</roles><sys_class_name>sys_app_application</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-05-14 11:27:23</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>8834081d6438d0107f441ac44f0f1190</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Waiting List</sys_name><sys_overrides/><sys_package display_value="covid19" source="x_cdltd_covid19">8a2abf856438d0107f441ac44f0f115b</sys_package><sys_policy/><sys_scope display_value="covid19">8a2abf856438d0107f441ac44f0f115b</sys_scope><sys_update_name>sys_app_application_8834081d6438d0107f441ac44f0f1190</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-05-14 11:27:23</sys_updated_on><title>Waiting List</title><view_name/></sys_app_application></record_update>]]></payload>
+        <payload_hash>-216020623</payload_hash>
+        <record_name>Waiting List</record_name>
+        <reverted_from/>
+        <source>717b37c56438d0107f441ac44f0f1183</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-14 11:27:23</sys_created_on>
+        <sys_id>c834481d6438d0107f441ac44f0f117f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17212f065310000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-14 11:27:23</sys_updated_on>
+        <type>Application Menu</type>
+        <update_guid>0434481db038d010694da22cf28b327f</update_guid>
+        <update_guid_history>0434481db038d010694da22cf28b327f:-216020623</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Waiting List">8ac47dd1647cd0107f441ac44f0f111c</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-14 19:39:19</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_application">sys_app_application</sys_db_object>
+        <sys_id>3adec336e1a04ae1b9a35d6bcaceb011</sys_id>
+        <sys_metadata>8834081d6438d0107f441ac44f0f1190</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Waiting List</sys_name>
+        <sys_package display_value="covid19" source="x_cdltd_covid19">8a2abf856438d0107f441ac44f0f115b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="covid19">8a2abf856438d0107f441ac44f0f115b</sys_scope>
+        <sys_scope_delete display_value="">1958d13663e94a94b6c2d2a44bb4dec9</sys_scope_delete>
+        <sys_update_name>sys_app_application_8834081d6438d0107f441ac44f0f1190</sys_update_name>
+        <sys_update_version display_value="sys_app_application_8834081d6438d0107f441ac44f0f1190">c834481d6438d0107f441ac44f0f117f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-14 19:39:19</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

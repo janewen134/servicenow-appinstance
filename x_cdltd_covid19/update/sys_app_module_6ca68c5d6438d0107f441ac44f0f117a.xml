@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
     <sys_app_module action="INSERT_OR_UPDATE">
         <active>true</active>
-        <application display_value="Inpatients">28a68c5d6438d0107f441ac44f0f1178</application>
+        <application display_value="Covid19 Hostital Bed Request App">c9b33d91647cd0107f441ac44f0f11af</application>
         <assessment/>
         <device_type/>
         <filter/>
@@ -13,7 +13,7 @@
         <mobile_title>Inpatients</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
         <name>x_cdltd_covid19_inpatients</name>
-        <order/>
+        <order>400</order>
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
@@ -24,15 +24,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>6ca68c5d6438d0107f441ac44f0f117a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Inpatients</sys_name>
         <sys_overrides/>
         <sys_package display_value="covid19" source="x_cdltd_covid19">8a2abf856438d0107f441ac44f0f115b</sys_package>
         <sys_policy/>
         <sys_scope display_value="covid19">8a2abf856438d0107f441ac44f0f115b</sys_scope>
         <sys_update_name>sys_app_module_6ca68c5d6438d0107f441ac44f0f117a</sys_update_name>
-        <sys_updated_by>ryansalisbury</sys_updated_by>
-        <sys_updated_on>2020-05-14 11:38:05</sys_updated_on>
+        <sys_updated_by>jingwen</sys_updated_by>
+        <sys_updated_on>2020-05-15 01:34:12</sys_updated_on>
         <timeline_page/>
         <title>Inpatients</title>
         <uncancelable>false</uncancelable>
