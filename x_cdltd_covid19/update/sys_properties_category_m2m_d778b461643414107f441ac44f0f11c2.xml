@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties_category_m2m">
+    <sys_properties_category_m2m action="INSERT_OR_UPDATE">
+        <category display_value="host bed req">2b16b4ed64f014107f441ac44f0f11e6</category>
+        <order>100</order>
+        <property display_value="x_cdltd_covid19.remd.leadtime" name="x_cdltd_covid19.remd.leadtime">dc5638ed64f014107f441ac44f0f117e</property>
+        <sys_class_name>sys_properties_category_m2m</sys_class_name>
+        <sys_created_by>jingwen</sys_created_by>
+        <sys_created_on>2020-05-15 09:54:23</sys_created_on>
+        <sys_id>d778b461643414107f441ac44f0f11c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_cdltd_covid19.remd.leadtime.host bed req</sys_name>
+        <sys_package display_value="covid19" source="x_cdltd_covid19">8a2abf856438d0107f441ac44f0f115b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="covid19">8a2abf856438d0107f441ac44f0f115b</sys_scope>
+        <sys_update_name>sys_properties_category_m2m_d778b461643414107f441ac44f0f11c2</sys_update_name>
+        <sys_updated_by>jingwen</sys_updated_by>
+        <sys_updated_on>2020-05-15 09:54:23</sys_updated_on>
+    </sys_properties_category_m2m>
+</record_update>
