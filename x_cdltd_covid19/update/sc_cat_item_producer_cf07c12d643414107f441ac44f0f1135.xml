@@ -4,14 +4,13 @@
         <availability>on_desktop</availability>
         <billable>false</billable>
         <can_cancel>false</can_cancel>
-        <category display_value="Covid19  Hospital Bed Request">a5275395643014107f441ac44f0f11e9</category>
+        <category/>
         <cost>0</cost>
         <custom_cart/>
         <delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan>
         <delivery_plan_script/>
         <delivery_time>1970-01-03 00:00:00</delivery_time>
-        <description><![CDATA[<p><img style="display: block; margin-left: auto; margin-right: auto;" title="" src="design.pngx" alt="Hello." width="117" height="116" align="baseline" border="" hspace="" vspace="" /></p>
-<p style="text-align: center;">Dear future patients, please fill in this form then you will be put in our waiting list. Our nurse will assign you to a ward base on your case. We will notify you when a nurse have successfully added you to a ward. Than you for your patience</p>]]></description>
+        <description/>
         <display_price_property>non_zero</display_price_property>
         <entitlement_script/>
         <flow_designer_flow/>
@@ -28,7 +27,7 @@
         <mobile_picture/>
         <mobile_picture_type>use_desktop_picture</mobile_picture_type>
         <model/>
-        <name>Inpatient Application</name>
+        <name>Request a Bed</name>
         <no_attachment_v2>false</no_attachment_v2>
         <no_cart>false</no_cart>
         <no_cart_v2>false</no_cart_v2>
@@ -45,33 +44,33 @@
         <ordered_item_link/>
         <picture/>
         <post_insert_script/>
-        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=adeda99d643cd0107f441ac44f0f119a&amp;sysparm_preview=true", "summary");</preview>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=cf07c12d643414107f441ac44f0f1135&amp;sysparm_preview=true", "summary");</preview>
         <price>0</price>
         <recurring_frequency/>
         <recurring_price>0</recurring_price>
         <redirect_url>generated_record</redirect_url>
         <request_method/>
         <roles/>
-        <sc_catalogs>e0d08b13c3330100c8b837659bba8fb4</sc_catalogs>
+        <sc_catalogs/>
         <sc_ic_item_staging/>
         <sc_ic_version/>
         <script/>
-        <short_description>Please apply if you are tested positive for covid19 and need to be admitted</short_description>
+        <short_description>Request a Bed</short_description>
         <show_variable_help_on_load>false</show_variable_help_on_load>
         <start_closed>false</start_closed>
         <sys_class_name>sc_cat_item_producer</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-05-14 19:09:16</sys_created_on>
-        <sys_id>adeda99d643cd0107f441ac44f0f119a</sys_id>
-        <sys_mod_count>7</sys_mod_count>
-        <sys_name>Inpatient Application</sys_name>
+        <sys_created_on>2020-05-15 10:57:59</sys_created_on>
+        <sys_id>cf07c12d643414107f441ac44f0f1135</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Request a Bed</sys_name>
         <sys_package display_value="covid19" source="x_cdltd_covid19">8a2abf856438d0107f441ac44f0f115b</sys_package>
         <sys_policy/>
         <sys_scope display_value="covid19">8a2abf856438d0107f441ac44f0f115b</sys_scope>
-        <sys_update_name>sc_cat_item_producer_adeda99d643cd0107f441ac44f0f119a</sys_update_name>
+        <sys_update_name>sc_cat_item_producer_cf07c12d643414107f441ac44f0f1135</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-15 10:21:54</sys_updated_on>
-        <table_name>x_cdltd_covid19_patient_details</table_name>
+        <sys_updated_on>2020-05-15 10:57:59</sys_updated_on>
+        <table_name>x_cdltd_covid19_wards_and_beds</table_name>
         <template/>
         <type>item</type>
         <use_sc_layout>true</use_sc_layout>
@@ -82,22 +81,22 @@
         <visible_standalone>true</visible_standalone>
         <workflow/>
     </sc_cat_item_producer>
-    <sys_translated_text action="delete_multiple" query="documentkey=adeda99d643cd0107f441ac44f0f119a"/>
-    <fx_price action="delete_multiple" query="id=adeda99d643cd0107f441ac44f0f119a"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=cf07c12d643414107f441ac44f0f1135"/>
+    <fx_price action="delete_multiple" query="id=cf07c12d643414107f441ac44f0f1135"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>price</field>
-        <id>adeda99d643cd0107f441ac44f0f119a</id>
+        <id>cf07c12d643414107f441ac44f0f1135</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-05-14 19:09:16</sys_created_on>
-        <sys_id>61eda99d643cd0107f441ac44f0f119c</sys_id>
+        <sys_created_on>2020-05-15 10:57:59</sys_created_on>
+        <sys_id>4307c12d643414107f441ac44f0f1137</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-14 19:09:16</sys_updated_on>
+        <sys_updated_on>2020-05-15 10:57:59</sys_updated_on>
         <table>sc_cat_item_producer</table>
         <type>calculated</type>
     </fx_price>
@@ -105,16 +104,16 @@
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>recurring_price</field>
-        <id>adeda99d643cd0107f441ac44f0f119a</id>
+        <id>cf07c12d643414107f441ac44f0f1135</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-05-14 19:09:16</sys_created_on>
-        <sys_id>25eda99d643cd0107f441ac44f0f119d</sys_id>
+        <sys_created_on>2020-05-15 10:57:59</sys_created_on>
+        <sys_id>0707c12d643414107f441ac44f0f1138</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-14 19:09:16</sys_updated_on>
+        <sys_updated_on>2020-05-15 10:57:59</sys_updated_on>
         <table>sc_cat_item_producer</table>
         <type>calculated</type>
     </fx_price>

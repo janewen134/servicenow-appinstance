@@ -19,16 +19,24 @@
         </element>
         <element choice="1" label="Relation to Patient" max_length="40" name="relation_to_patient" type="choice">
             <choice>
-                <element inactive_on_update="false" label="-- New choice --" value="-- New choice --"/>
+                <element inactive="true" inactive_on_update="true" label="-- New choice --" sequence="0" value="-- New choice --"/>
+                <element inactive_on_update="false" label="Parent" sequence="0" value="parent"/>
+                <element inactive_on_update="false" label="Grandparent" sequence="1" value="grandparent"/>
+                <element inactive_on_update="false" label="Aunt" sequence="2" value="aunt"/>
+                <element inactive_on_update="false" label="Uncle" sequence="3" value="uncle"/>
+                <element inactive_on_update="false" label="Sister" sequence="4" value="sister"/>
+                <element inactive_on_update="false" label="Brother" sequence="5" value="brother"/>
+                <element inactive_on_update="false" label="Husband" sequence="6" value="husband"/>
+                <element inactive_on_update="false" label="Wife" sequence="7" value="wife"/>
             </choice>
         </element>
-        <element choice="1" label="Severity of case" max_length="200" name="severity_of_case" type="choice">
+        <element choice="1" label="Severity of case" mandatory="true" max_length="200" name="severity_of_case" type="choice">
             <choice>
                 <element inactive_on_update="false" label="severely infected" sequence="0" value="severely infected"/>
                 <element inactive_on_update="false" label="moderately infected" sequence="1" value="moderately infected"/>
                 <element inactive_on_update="false" label="slightly infected" sequence="2" value="slightly infected"/>
             </choice>
         </element>
-        <element label="Underlying health conditions" max_length="200" name="underlying_health_conditions" type="string"/>
+        <element label="Underlying health conditions" mandatory="true" max_length="200" name="underlying_health_conditions" type="string"/>
     </element>
 </database>

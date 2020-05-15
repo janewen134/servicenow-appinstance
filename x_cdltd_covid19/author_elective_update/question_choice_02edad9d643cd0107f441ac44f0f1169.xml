@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <misc/>
+        <order>1</order>
+        <question display_value="Relation to Patient">b9edad9d643cd0107f441ac44f0f1163</question>
+        <rec_misc/>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-14 19:09:17</sys_created_on>
+        <sys_id>02edad9d643cd0107f441ac44f0f1169</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>-- New choice --</sys_name>
+        <sys_package display_value="covid19" source="x_cdltd_covid19">8a2abf856438d0107f441ac44f0f115b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="covid19">8a2abf856438d0107f441ac44f0f115b</sys_scope>
+        <sys_update_name>question_choice_02edad9d643cd0107f441ac44f0f1169</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-14 19:09:17</sys_updated_on>
+        <text>-- New choice --</text>
+        <value>-- New choice --</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=02edad9d643cd0107f441ac44f0f1169"/>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>misc</field>
+        <id>02edad9d643cd0107f441ac44f0f1169</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-14 19:09:17</sys_created_on>
+        <sys_id>82edad9d643cd0107f441ac44f0f116a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-14 19:09:17</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>rec_misc</field>
+        <id>02edad9d643cd0107f441ac44f0f1169</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-14 19:09:17</sys_created_on>
+        <sys_id>4aedad9d643cd0107f441ac44f0f1169</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-14 19:09:17</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="covid19">8a2abf856438d0107f441ac44f0f115b</application>
+        <file_path/>
+        <instance_id>80c5b013dba058d080d9a18c1396192c</instance_id>
+        <instance_name>adf-may10niw-dev-006</instance_name>
+        <name>question_choice_02edad9d643cd0107f441ac44f0f1169</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><misc/><order>1</order><question display_value="Relation to Patient">b9edad9d643cd0107f441ac44f0f1163</question><rec_misc/><sys_class_name>question_choice</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-05-14 19:09:17</sys_created_on><sys_id>02edad9d643cd0107f441ac44f0f1169</sys_id><sys_mod_count>0</sys_mod_count><sys_name>-- New choice --</sys_name><sys_package display_value="covid19" source="x_cdltd_covid19">8a2abf856438d0107f441ac44f0f115b</sys_package><sys_policy/><sys_scope display_value="covid19">8a2abf856438d0107f441ac44f0f115b</sys_scope><sys_update_name>question_choice_02edad9d643cd0107f441ac44f0f1169</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-05-14 19:09:17</sys_updated_on><text>-- New choice --</text><value>-- New choice --</value></question_choice><fx_price action="delete_multiple" query="id=02edad9d643cd0107f441ac44f0f1169"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>misc</field><id>02edad9d643cd0107f441ac44f0f1169</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2020-05-14 19:09:17</sys_created_on><sys_id>82edad9d643cd0107f441ac44f0f116a</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-05-14 19:09:17</sys_updated_on><table>question_choice</table><type>calculated</type></fx_price><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>rec_misc</field><id>02edad9d643cd0107f441ac44f0f1169</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2020-05-14 19:09:17</sys_created_on><sys_id>4aedad9d643cd0107f441ac44f0f1169</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-05-14 19:09:17</sys_updated_on><table>question_choice</table><type>calculated</type></fx_price></record_update>]]></payload>
+        <payload_hash>-1892245133</payload_hash>
+        <record_name>-- New choice --</record_name>
+        <reverted_from/>
+        <source>717b37c56438d0107f441ac44f0f1183</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-14 19:09:17</sys_created_on>
+        <sys_id>4eedad9d643cd0107f441ac44f0f116b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>172149745170000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-14 19:09:17</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>86edad9d553cd010324abd0110ea9a6b</update_guid>
+        <update_guid_history>86edad9d553cd010324abd0110ea9a6b:-1892245133</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="-- New choice --">a06938a1643414107f441ac44f0f1162</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-15 09:58:18</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>39281461fe7441a9adf4e346b089ea29</sys_id>
+        <sys_metadata>02edad9d643cd0107f441ac44f0f1169</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>-- New choice --</sys_name>
+        <sys_package display_value="covid19" source="x_cdltd_covid19">8a2abf856438d0107f441ac44f0f115b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="covid19">8a2abf856438d0107f441ac44f0f115b</sys_scope>
+        <sys_scope_delete display_value="">1958d13663e94a94b6c2d2a44bb4dec9</sys_scope_delete>
+        <sys_update_name>question_choice_02edad9d643cd0107f441ac44f0f1169</sys_update_name>
+        <sys_update_version display_value="question_choice_02edad9d643cd0107f441ac44f0f1169">4eedad9d643cd0107f441ac44f0f116b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-15 09:58:18</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

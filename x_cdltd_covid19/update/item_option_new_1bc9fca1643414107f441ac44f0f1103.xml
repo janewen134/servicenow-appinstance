@@ -18,10 +18,10 @@
         <dynamic_default_value/>
         <dynamic_ref_qual/>
         <example_text/>
-        <field>number</field>
+        <field>relation_to_patient</field>
         <global>false</global>
         <help_tag>More information</help_tag>
-        <help_text/>
+        <help_text>Please choose someone who is closest to you</help_text>
         <include_none>false</include_none>
         <instructions/>
         <layout>normal</layout>
@@ -36,11 +36,11 @@
         <map_to_field>true</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>number</name>
-        <order>100</order>
+        <name>relation_to_patient</name>
+        <order>800</order>
         <price_if_checked/>
         <pricing_implications>false</pricing_implications>
-        <question_text>Number</question_text>
+        <question_text>Relation to Patient</question_text>
         <read_roles/>
         <rec_lookup_price/>
         <rec_price_if_checked/>
@@ -57,19 +57,19 @@
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-05-14 19:09:16</sys_created_on>
-        <sys_id>71eda99d643cd0107f441ac44f0f11a1</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Number</sys_name>
+        <sys_created_on>2020-05-15 10:01:23</sys_created_on>
+        <sys_id>1bc9fca1643414107f441ac44f0f1103</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Relation to Patient</sys_name>
         <sys_package display_value="covid19" source="x_cdltd_covid19">8a2abf856438d0107f441ac44f0f115b</sys_package>
         <sys_policy/>
         <sys_scope display_value="covid19">8a2abf856438d0107f441ac44f0f115b</sys_scope>
-        <sys_update_name>item_option_new_71eda99d643cd0107f441ac44f0f11a1</sys_update_name>
+        <sys_update_name>item_option_new_1bc9fca1643414107f441ac44f0f1103</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-14 19:09:16</sys_updated_on>
+        <sys_updated_on>2020-05-15 10:10:27</sys_updated_on>
         <table/>
         <tooltip/>
-        <type>6</type>
+        <type>5</type>
         <ui_page/>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
@@ -84,22 +84,22 @@
         <visible_summary>true</visible_summary>
         <write_roles/>
     </item_option_new>
-    <sys_translated_text action="delete_multiple" query="documentkey=71eda99d643cd0107f441ac44f0f11a1"/>
-    <fx_price action="delete_multiple" query="id=71eda99d643cd0107f441ac44f0f11a1"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=1bc9fca1643414107f441ac44f0f1103"/>
+    <fx_price action="delete_multiple" query="id=1bc9fca1643414107f441ac44f0f1103"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
         <currency display_value="GBP">GBP</currency>
         <field>price_if_checked</field>
-        <id>71eda99d643cd0107f441ac44f0f11a1</id>
+        <id>1bc9fca1643414107f441ac44f0f1103</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-05-14 19:09:16</sys_created_on>
-        <sys_id>fdedad9d643cd0107f441ac44f0f1118</sys_id>
+        <sys_created_on>2020-05-15 10:01:23</sys_created_on>
+        <sys_id>751ab0e1643414107f441ac44f0f11ac</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-14 19:09:16</sys_updated_on>
+        <sys_updated_on>2020-05-15 10:01:23</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
@@ -107,16 +107,16 @@
         <amount>0</amount>
         <currency display_value="GBP">GBP</currency>
         <field>rec_price_if_checked</field>
-        <id>71eda99d643cd0107f441ac44f0f11a1</id>
+        <id>1bc9fca1643414107f441ac44f0f1103</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-05-14 19:09:16</sys_created_on>
-        <sys_id>b5edad9d643cd0107f441ac44f0f1118</sys_id>
+        <sys_created_on>2020-05-15 10:01:23</sys_created_on>
+        <sys_id>751ab0e1643414107f441ac44f0f11ab</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-14 19:09:16</sys_updated_on>
+        <sys_updated_on>2020-05-15 10:01:23</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>

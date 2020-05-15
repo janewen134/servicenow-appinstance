@@ -4,20 +4,172 @@
             <dependent_value/>
             <element>relation_to_patient</element>
             <hint/>
-            <inactive>false</inactive>
+            <inactive>true</inactive>
             <label>-- New choice --</label>
             <language>en</language>
             <name>x_cdltd_covid19_patient_details</name>
-            <sequence/>
+            <sequence>0</sequence>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2020-05-14 18:25:43</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>77e3ad19643cd0107f441ac44f0f1187</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-05-15 09:53:56</sys_updated_on>
+            <value>-- New choice --</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>relation_to_patient</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Parent</label>
+            <language>en</language>
+            <name>x_cdltd_covid19_patient_details</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-05-15 09:53:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6468b461643414107f441ac44f0f119a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-05-14 18:25:43</sys_updated_on>
-            <value>-- New choice --</value>
+            <sys_updated_on>2020-05-15 09:53:56</sys_updated_on>
+            <value>parent</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>relation_to_patient</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Grandparent</label>
+            <language>en</language>
+            <name>x_cdltd_covid19_patient_details</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-05-15 09:53:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2468b461643414107f441ac44f0f119b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-05-15 09:53:56</sys_updated_on>
+            <value>grandparent</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>relation_to_patient</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Aunt</label>
+            <language>en</language>
+            <name>x_cdltd_covid19_patient_details</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-05-15 09:53:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a068b461643414107f441ac44f0f119c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-05-15 09:53:56</sys_updated_on>
+            <value>aunt</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>relation_to_patient</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Uncle</label>
+            <language>en</language>
+            <name>x_cdltd_covid19_patient_details</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-05-15 09:53:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3068b461643414107f441ac44f0f119d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-05-15 09:53:56</sys_updated_on>
+            <value>uncle</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>relation_to_patient</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Sister</label>
+            <language>en</language>
+            <name>x_cdltd_covid19_patient_details</name>
+            <sequence>4</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-05-15 09:53:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bc68b461643414107f441ac44f0f119d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-05-15 09:53:56</sys_updated_on>
+            <value>sister</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>relation_to_patient</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Brother</label>
+            <language>en</language>
+            <name>x_cdltd_covid19_patient_details</name>
+            <sequence>5</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-05-15 09:53:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3c68b461643414107f441ac44f0f119e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-05-15 09:53:56</sys_updated_on>
+            <value>brother</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>relation_to_patient</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Husband</label>
+            <language>en</language>
+            <name>x_cdltd_covid19_patient_details</name>
+            <sequence>6</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-05-15 09:53:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b868b461643414107f441ac44f0f119f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-05-15 09:53:56</sys_updated_on>
+            <value>husband</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>relation_to_patient</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Wife</label>
+            <language>en</language>
+            <name>x_cdltd_covid19_patient_details</name>
+            <sequence>7</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-05-15 09:53:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3868b461643414107f441ac44f0f11a0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-05-15 09:53:56</sys_updated_on>
+            <value>wife</value>
         </sys_choice>
         <sys_choice_set action="INSERT_OR_UPDATE">
             <element>relation_to_patient</element>

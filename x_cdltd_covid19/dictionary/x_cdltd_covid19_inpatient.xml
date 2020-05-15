@@ -3,7 +3,7 @@
         <element label="Admit Date" max_length="40" name="admit_date" type="glide_date_time"/>
         <element label="Discharge Date" max_length="40" name="discharge_date" type="glide_date_time"/>
         <element label="WaitingList ID" max_length="32" name="number" reference="x_cdltd_covid19_waiting_list" type="reference"/>
-        <element label="Patient Id" max_length="32" name="patient_id" reference="x_cdltd_covid19_patient_details" type="reference"/>
+        <element label="Patient Id" max_length="32" name="patient_id" reference="x_cdltd_covid19_patient_details" reference_qual="numberSTARTSWITH^EQ" reference_qual_condition="numberSTARTSWITH^EQ" type="reference"/>
         <element choice="1" display="true" label="Status" max_length="40" name="status" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Healed" sequence="0" value="healed"/>
