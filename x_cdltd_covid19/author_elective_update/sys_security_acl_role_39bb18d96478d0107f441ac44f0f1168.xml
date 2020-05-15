@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>jingwen</sys_created_by>
+        <sys_created_on>2020-05-14 13:10:11</sys_created_on>
+        <sys_id>39bb18d96478d0107f441ac44f0f1168</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_cdltd_covid19_patient_details.x_cdltd_covid19.patient</sys_name>
+        <sys_package display_value="covid19" source="x_cdltd_covid19">8a2abf856438d0107f441ac44f0f115b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="covid19">8a2abf856438d0107f441ac44f0f115b</sys_scope>
+        <sys_security_acl display_value="x_cdltd_covid19_patient_details">b9bb18d96478d0107f441ac44f0f1165</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_39bb18d96478d0107f441ac44f0f1168</sys_update_name>
+        <sys_updated_by>jingwen</sys_updated_by>
+        <sys_updated_on>2020-05-14 13:10:11</sys_updated_on>
+        <sys_user_role display_value="x_cdltd_covid19.patient" name="x_cdltd_covid19.patient">fe9ab7416438d0107f441ac44f0f11a1</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="covid19">8a2abf856438d0107f441ac44f0f115b</application>
+        <file_path/>
+        <instance_id>80c5b013dba058d080d9a18c1396192c</instance_id>
+        <instance_name>adf-may10niw-dev-006</instance_name>
+        <name>sys_security_acl_role_39bb18d96478d0107f441ac44f0f1168</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>jingwen</sys_created_by><sys_created_on>2020-05-14 13:10:11</sys_created_on><sys_id>39bb18d96478d0107f441ac44f0f1168</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_cdltd_covid19_patient_details.x_cdltd_covid19.patient</sys_name><sys_package display_value="covid19" source="x_cdltd_covid19">8a2abf856438d0107f441ac44f0f115b</sys_package><sys_policy/><sys_scope display_value="covid19">8a2abf856438d0107f441ac44f0f115b</sys_scope><sys_security_acl display_value="x_cdltd_covid19_patient_details">b9bb18d96478d0107f441ac44f0f1165</sys_security_acl><sys_update_name>sys_security_acl_role_39bb18d96478d0107f441ac44f0f1168</sys_update_name><sys_updated_by>jingwen</sys_updated_by><sys_updated_on>2020-05-14 13:10:11</sys_updated_on><sys_user_role display_value="x_cdltd_covid19.patient" name="x_cdltd_covid19.patient">fe9ab7416438d0107f441ac44f0f11a1</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-1015891259</payload_hash>
+        <record_name>x_cdltd_covid19_patient_details.x_cdltd_covid19.patient</record_name>
+        <reverted_from/>
+        <source>b25d33496438d0107f441ac44f0f1112</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>jingwen</sys_created_by>
+        <sys_created_on>2020-05-14 13:10:11</sys_created_on>
+        <sys_id>fdbb18d96478d0107f441ac44f0f116a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>172134e82630000001</sys_recorded_at>
+        <sys_updated_by>jingwen</sys_updated_by>
+        <sys_updated_on>2020-05-14 13:10:11</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>39bb18d94a78d0100cfb7c8b630a3a6a</update_guid>
+        <update_guid_history>39bb18d94a78d0100cfb7c8b630a3a6a:-1015891259</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_cdltd_covid19_patient_details.x_cdltd_covid19.patient">73ef8311643014107f441ac44f0f11e7</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>jingwen</sys_created_by>
+        <sys_created_on>2020-05-15 02:17:35</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>56f57953d97d47fca2ccecddaa6a4bc9</sys_id>
+        <sys_metadata>39bb18d96478d0107f441ac44f0f1168</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_cdltd_covid19_patient_details.x_cdltd_covid19.patient</sys_name>
+        <sys_package display_value="covid19" source="x_cdltd_covid19">8a2abf856438d0107f441ac44f0f115b</sys_package>
+        <sys_parent display_value="x_cdltd_covid19_patient_details">b9bb18d96478d0107f441ac44f0f1165</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="covid19">8a2abf856438d0107f441ac44f0f115b</sys_scope>
+        <sys_scope_delete display_value="">1958d13663e94a94b6c2d2a44bb4dec9</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_39bb18d96478d0107f441ac44f0f1168</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_39bb18d96478d0107f441ac44f0f1168">fdbb18d96478d0107f441ac44f0f116a</sys_update_version>
+        <sys_updated_by>jingwen</sys_updated_by>
+        <sys_updated_on>2020-05-15 02:17:35</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

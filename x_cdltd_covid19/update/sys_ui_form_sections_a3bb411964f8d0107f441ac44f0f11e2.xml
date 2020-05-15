@@ -10,21 +10,7 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_cdltd_covid19_inpatients" name="x_cdltd_covid19_inpatients" sys_domain="global" view="63bb411964f8d0107f441ac44f0f11dc">a3bb411964f8d0107f441ac44f0f11e2</sys_ui_form>
-            <sys_ui_section caption="Personal Details" display_value="Personal Details" name="x_cdltd_covid19_inpatients" sys_domain="global" view="63bb411964f8d0107f441ac44f0f11dc">2bbb411964f8d0107f441ac44f0f11df</sys_ui_section>
-            <sys_updated_by>ryansalisbury</sys_updated_by>
-            <sys_updated_on>2020-05-14 16:40:02</sys_updated_on>
-        </sys_ui_form_section>
-        <sys_ui_form_section action="INSERT_OR_UPDATE">
-            <position>1</position>
-            <sys_created_by>ryansalisbury</sys_created_by>
-            <sys_created_on>2020-05-14 16:40:02</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>67bb411964f8d0107f441ac44f0f11e5</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_overrides/>
-            <sys_ui_form display_value="x_cdltd_covid19_inpatients" name="x_cdltd_covid19_inpatients" sys_domain="global" view="63bb411964f8d0107f441ac44f0f11dc">a3bb411964f8d0107f441ac44f0f11e2</sys_ui_form>
-            <sys_ui_section caption="Health Details" display_value="Health Details" name="x_cdltd_covid19_inpatients" sys_domain="global" view="63bb411964f8d0107f441ac44f0f11dc">e7bb411964f8d0107f441ac44f0f11e0</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_cdltd_covid19_inpatients" sys_domain="global" view="63bb411964f8d0107f441ac44f0f11dc">2bbb411964f8d0107f441ac44f0f11df</sys_ui_section>
             <sys_updated_by>ryansalisbury</sys_updated_by>
             <sys_updated_on>2020-05-14 16:40:02</sys_updated_on>
         </sys_ui_form_section>

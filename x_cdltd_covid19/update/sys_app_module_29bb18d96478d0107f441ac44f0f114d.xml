@@ -13,26 +13,26 @@
         <mobile_title>Patient Details</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
         <name>x_cdltd_covid19_patient_details</name>
-        <order/>
+        <order>200</order>
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
-        <roles>x_cdltd_covid19.patient</roles>
+        <roles>x_cdltd_covid19.patient,x_cdltd_covid19.nurse,x_cdltd_covid19.admin</roles>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>jingwen</sys_created_by>
         <sys_created_on>2020-05-14 13:10:11</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>29bb18d96478d0107f441ac44f0f114d</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Patient Details</sys_name>
         <sys_overrides/>
         <sys_package display_value="covid19" source="x_cdltd_covid19">8a2abf856438d0107f441ac44f0f115b</sys_package>
         <sys_policy/>
         <sys_scope display_value="covid19">8a2abf856438d0107f441ac44f0f115b</sys_scope>
         <sys_update_name>sys_app_module_29bb18d96478d0107f441ac44f0f114d</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-14 19:40:22</sys_updated_on>
+        <sys_updated_by>jingwen</sys_updated_by>
+        <sys_updated_on>2020-05-15 01:38:36</sys_updated_on>
         <timeline_page/>
         <title>Patient Details</title>
         <uncancelable>false</uncancelable>

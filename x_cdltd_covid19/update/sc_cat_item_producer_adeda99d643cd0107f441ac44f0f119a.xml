@@ -10,7 +10,7 @@
         <delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan>
         <delivery_plan_script/>
         <delivery_time>1970-01-03 00:00:00</delivery_time>
-        <description/>
+        <description><![CDATA[<p>Dear future patients, please fill in this form then you will be put in our waiting list. Our nurse will assign you to a ward base on your case. We will notify you when a nurse have successfully added you to a ward. Than you for your patience</p>]]></description>
         <display_price_property>non_zero</display_price_property>
         <entitlement_script/>
         <flow_designer_flow/>
@@ -48,7 +48,7 @@
         <price>0</price>
         <recurring_frequency/>
         <recurring_price>0</recurring_price>
-        <redirect_url>generated_record</redirect_url>
+        <redirect_url>catalog_home</redirect_url>
         <request_method/>
         <roles/>
         <sc_catalogs/>
@@ -62,14 +62,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-05-14 19:09:16</sys_created_on>
         <sys_id>adeda99d643cd0107f441ac44f0f119a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Inpatient Application</sys_name>
         <sys_package display_value="covid19" source="x_cdltd_covid19">8a2abf856438d0107f441ac44f0f115b</sys_package>
         <sys_policy/>
         <sys_scope display_value="covid19">8a2abf856438d0107f441ac44f0f115b</sys_scope>
         <sys_update_name>sc_cat_item_producer_adeda99d643cd0107f441ac44f0f119a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-14 19:09:16</sys_updated_on>
+        <sys_updated_on>2020-05-15 01:49:01</sys_updated_on>
         <table_name>x_cdltd_covid19_patient_details</table_name>
         <template/>
         <type>item</type>

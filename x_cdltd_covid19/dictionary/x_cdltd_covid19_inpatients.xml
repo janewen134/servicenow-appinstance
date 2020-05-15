@@ -7,7 +7,7 @@
         <element attributes="edge_encryption_enabled=true" label="Phone Number" max_length="40" name="emergency_contact_information" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Emergency Contact Name" mandatory="true" max_length="40" name="e_c_name" type="string"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Patient ID" max_length="40" name="patient_id" read_only="true" reference="x_cdltd_covid19_patient_details" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Patient ID" max_length="40" name="patient_id" reference="x_cdltd_covid19_patient_details" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Patient Name" max_length="40" name="patient_name" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Phone Number" max_length="40" name="phone_number" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Relation to Patient" max_length="40" name="relation_to_patient" type="string"/>
@@ -25,7 +25,7 @@
         <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
         <element attributes="edge_encryption_enabled=true" label="Underlying Health Conditions" max_length="40" name="underlying_health_conditions" type="string"/>
         <element attributes="encode_utf8=false" label="Patient ID" max_length="32" name="u_reference_6" reference="x_cdltd_covid19_patient_details" type="reference"/>
-        <element attributes="encode_utf8=false" label="Ward Number" max_length="32" name="ward_number" read_only="true" reference="x_cdltd_covid19_inpatients" type="reference"/>
+        <element attributes="encode_utf8=false" label="Ward Number" max_length="32" name="ward_number" reference="x_cdltd_covid19_wards_and_beds" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Work Notes" max_length="40" name="work_notes" type="string"/>
         <index name="index">
             <element name="ward_number"/>
